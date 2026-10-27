@@ -721,7 +721,7 @@
   "configs": [
     {
       "path": "quickerconnectbutton.json5",
-      "sha256": "de57f8ad79d64b97dac409a01a154b26891fd1a54ce55c99411231431cbfec6",
+      "sha256": "DE57F8AD79D6A4B97DAC409A01A154B26891FD1A54CE55C99411231431CBFEC6",
       "size": 896
     }
   ]
