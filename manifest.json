@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-27T12:07:59",
+  "version": "2026-10-27T12:35:41",
   "removeExtraMods": true,
   "mods": [
     {
@@ -721,8 +721,8 @@
   "configs": [
     {
       "path": "quickerconnectbutton.json5",
-      "sha256": "de57f8ad79d6a4b97dac409a01a154b26891fd1a54ce55c99411231431cbfec6",
+      "sha256": "de57f8ad79d64b97dac409a01a154b26891fd1a54ce55c99411231431cbfec6",
       "size": 896
-    },
+    }
   ]
 }
