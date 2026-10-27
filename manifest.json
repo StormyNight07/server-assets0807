@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-27T12:44:35",
+  "version": "2026-10-27T12:50:37",
   "removeExtraMods": true,
   "mods": [
     {
@@ -46,6 +46,11 @@
       "file": "architectury-13.0.11-fabric.jar",
       "sha256": "ab17d5c7d8d8c93cc713437ed426f0ff0d6f802a48fff0c579a9bd3aaa833efd",
       "size": 600921
+    },
+    {
+      "file": "AsyncParticles-21.1.4.10+1.21.1.jar",
+      "sha256": "860c7754101bb15798744891a4d63a329134302ae61ff3faf44d501885ab9fd8",
+      "size": 1303563
     },
     {
       "file": "badpackets-fabric-0.8.2.jar",
@@ -751,7 +756,7 @@
     },
     {
       "path": "asyncparticles/asyncparticles-mixin.properties",
-      "sha256": "8b13eafbd8283ee4182bd8131a52e5fdbaf257602ac8bcb171702a4b1b5e39e9",
+      "sha256": "0fed233eef31e3a7937871c135bd14e8cf60c57801e6ee2e2bbf8c447d86012c",
       "size": 2227
     },
     {
@@ -906,7 +911,7 @@
     },
     {
       "path": "cosmetica/cosmetica.properties",
-      "sha256": "f652acbf60e3500c983ebd9617b790785ede01cd39fd516374d612d2267cfbb0",
+      "sha256": "62ce33c803172b81fd3bb5ebd523bcf0334db3421a5a1b738e12a8b1bf9e87e5",
       "size": 170
     },
     {
@@ -1051,7 +1056,7 @@
     },
     {
       "path": "fabric/indigo-renderer.properties",
-      "sha256": "48ea127a2485f44c59a99add70cfaf48cfa876f4583f3ff60323cd590909ee8a",
+      "sha256": "06a8e4286a7baf6bbdf652c3bebdbba31d9b3087d3b1d6cbe4ab5e9b8e55e6f7",
       "size": 291
     },
     {
@@ -1151,7 +1156,7 @@
     },
     {
       "path": "iris.properties",
-      "sha256": "f37fd0975aa68f2aab73e58053855ab00d559bea70976a58313361ba0b626565",
+      "sha256": "de8a9a0dc2a0e3646c7439beeec202864ac353c3faae11b8b04cb40dc5eb1995",
       "size": 317
     },
     {
@@ -1336,7 +1341,7 @@
     },
     {
       "path": "libraryferret_1.properties",
-      "sha256": "1f2f6d2c00aa75035764768d4664f259a42ee31e0260d1fdadaa95cedf28c5f6",
+      "sha256": "0a470f95b98bc96432b64565e29fac01b3f1e94c824e9cfd9fc94ccc6d2b277b",
       "size": 194
     },
     {
@@ -1483,6 +1488,11 @@
       "path": "porting_lib_config.toml",
       "sha256": "46a306c3fcb9c47adf96e35090444fbce8debe99e13f2e7467b0a1a4820ba63d",
       "size": 194
+    },
+    {
+      "path": "quickerconnectbutton.json5",
+      "sha256": "04546d9ec82bfd3e93c37993e694ffff50a383c4174202cf65eca12349ad4486",
+      "size": 895
     },
     {
       "path": "resourceful-config-web.json",
