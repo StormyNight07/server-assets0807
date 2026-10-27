@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-27T10:38:32",
+  "version": "2026-10-27T12:07:59",
   "removeExtraMods": true,
   "mods": [
     {
@@ -46,11 +46,6 @@
       "file": "architectury-13.0.11-fabric.jar",
       "sha256": "ab17d5c7d8d8c93cc713437ed426f0ff0d6f802a48fff0c579a9bd3aaa833efd",
       "size": 600921
-    },
-    {
-      "file": "AsyncParticles-21.1.4.10+1.21.1.jar",
-      "sha256": "860c7754101bb15798744891a4d63a329134302ae61ff3faf44d501885ab9fd8",
-      "size": 1303563
     },
     {
       "file": "badpackets-fabric-0.8.2.jar",
@@ -633,6 +628,11 @@
       "size": 21074
     },
     {
+      "file": "timm-1.1.2-1.21.1.jar",
+      "sha256": "e843d529412a65f58e28a67e0b1829583f65e63872cad5e9c1f261dad7129c0a",
+      "size": 155336231
+    },
+    {
       "file": "travelersbackpack-fabric-1.21.1-10.1.39.jar",
       "sha256": "a68843c41eceb1867692936d749b8ce9b390c23b1ee4f99ecb4b1feca26c11cc",
       "size": 1508904
@@ -738,6 +738,11 @@
       "path": "afkcinematics.properties",
       "sha256": "093792da9f7fe287267a46a6a991c50cd0564f870eabbc042aca2dae2cb86085",
       "size": 24
+    },
+    {
+      "path": "antique-atlas.toml",
+      "sha256": "1c76512efa0efb9b3e1099c2dd5d2753c9c01be0519385e77168861e4e16d24b",
+      "size": 2451
     },
     {
       "path": "appleskin.json5",
@@ -898,6 +903,16 @@
       "path": "CoroUtil/General.toml",
       "sha256": "6d46bdc090d4bb9bdfb660be4ca94075dc08e09d5fed84108eba92a422a23c49",
       "size": 129
+    },
+    {
+      "path": "cosmetica/cosmetica.properties",
+      "sha256": "378dea884bb490ddb19be12a5213cb2ad8a4e6e80e82a1e627fd0e263a614ff4",
+      "size": 170
+    },
+    {
+      "path": "cosmetica/pack_settings.json.disabled",
+      "sha256": "d8ef02c40b10ca28edba23db2be1db2ba5a13c7a7feb7a757089a7374dda09f7",
+      "size": 804
     },
     {
       "path": "creativecore-client.json",
@@ -1136,7 +1151,7 @@
     },
     {
       "path": "iris.properties",
-      "sha256": "3056a940446691a97d198baa59df81c1c33f0a12fb83134d5965962912f61596",
+      "sha256": "d39b01b5a17c1619e9adbbe042708b5f972ee23ec704b11716789980e09d93d7",
       "size": 317
     },
     {
@@ -1321,7 +1336,7 @@
     },
     {
       "path": "libraryferret_1.properties",
-      "sha256": "5fb364e6094b5ec6d03047dc41a65bfdc5418e0fe015970019681ca9d79bcc2d",
+      "sha256": "669ecc6a91adc58d99867b9fc20ef0076eef51398077c1a3b5faf485b6aa8e78",
       "size": 194
     },
     {
@@ -1663,6 +1678,11 @@
       "path": "supplementaries-common.json",
       "sha256": "d46188a52be11cc25c45996dbfd43807cbb59634476ff9d34834c328a4474e86",
       "size": 11076
+    },
+    {
+      "path": "surveyor.toml",
+      "sha256": "d220d1f1d61e59ab8d55324ade670a0589e41865dc628e8937887825b7348103",
+      "size": 4873
     },
     {
       "path": "terrablender.toml",
