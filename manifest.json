@@ -795,6 +795,11 @@
       "size": 1145
     },
     {
+      "path": "quickerconnectbutton.json5",
+      "sha256": "de57f8ad79d6a4b97dac409a01a154b26891fd1a54ce55c99411231431cbfec6",
+      "size": 896
+    },
+    {
       "path": "dashloader.json",
       "sha256": "1ec32bbcb7519614152292bbcb282c4a5c75bca3f98aca282d872a7fde95d9ae",
       "size": 179
