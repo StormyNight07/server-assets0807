@@ -1,0 +1,17 @@
+{
+  "highlightDurationTicks": 200,
+  "fadeOutTicks": 40,
+  "highlightColorHigh": "#00FF00",
+  "highlightColorMedium": "#FFFF00",
+  "highlightColorLow": "#FF6600",
+  "highCountThreshold": 32,
+  "lowCountThreshold": 4,
+  "maxSearchDistance": 256,
+  "highlightLineWidth": 3.0,
+  "enableChests": true,
+  "enableBarrels": true,
+  "enableShulkerBoxes": true,
+  "enableTrappedChests": true,
+  "enableEnderChest": true,
+  "cacheExpirationMinutes": 0
+}

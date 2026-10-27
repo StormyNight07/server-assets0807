@@ -1,0 +1,180 @@
+# Disasters Cataclysm configuration
+
+[global]
+autoCall = true
+maxActiveDisasters = 1
+doBlockBreak = true
+doPlayerDamage = true
+doMobDamage = true
+
+[meteorite]
+enabled = true
+chance = 0.004
+cooldownTicks = 2400
+minDistanceFromPlayer = 10
+maxDistanceFromPlayer = 30
+minSize = 3
+maxSize = 8
+fixedSize = 0
+# Full form = more optimized shell for larger meteorites (fewer objects)
+FullForm = true
+# pace = blocks per teleport step
+pace = 2.5
+# speed = teleports per second
+speed = 10.0
+explosionPower = 3.5
+coreChance = 0.35
+
+[earthquake]
+enabled = true
+chance = 0.0015
+cooldownTicks = 4000
+minDistanceFromPlayer = 0
+maxDistanceFromPlayer = 20
+radius = 30
+depth = 15
+cameraShake = true
+columnsPerTick = 2
+breakTicks = 20
+
+[storm]
+enabled = true
+chance = 0.003
+cooldownTicks = 3600
+minDistanceFromPlayer = 0
+maxDistanceFromPlayer = 48
+durationTicks = 2400
+lightningIntervalTicks = 40
+singleRiderChance = 0.25
+tripleRiderChance = 0.05
+
+[whirlpool]
+enabled = true
+chance = 0.0008
+cooldownTicks = 4800
+minDistanceFromPlayer = 0
+maxDistanceFromPlayer = 64
+radius = 12
+pullStrength = 0.08
+durationTicks = 1200
+
+[tornado]
+enabled = true
+chance = 0.0015
+cooldownTicks = 5200
+minDistanceFromPlayer = 0
+maxDistanceFromPlayer = 40
+minRadius = 4
+maxRadius = 10
+minHeight = 8
+maxHeight = 30
+pullStrength = 0.12
+breakBlocks = true
+swirlMultiplier = 0.5
+radialMultiplier = 2.7
+liftMultiplier = 0.8
+maxHorizontalSpeed = 0.05
+
+[tsunami]
+enabled = true
+chance = 0.0008
+cooldownTicks = 6000
+minDistanceFromPlayer = 0
+maxDistanceFromPlayer = 96
+radius = 18
+waveHeight = 12
+heightStepBlocks = 5
+speed = 0.6
+maxInlandDistance = 120
+leaveFlooding = false
+pushStrength = 0.04
+
+[landslide]
+enabled = true
+chance = 0.0015
+cooldownTicks = 4000
+minDistanceFromPlayer = 0
+maxDistanceFromPlayer = 38
+radius = 16
+layers = 3
+fallingBlocksPerTick = 12
+sinkDepth = 2
+
+
+[volcano]
+enabled = true
+chance = 0.0008
+cooldownTicks = 7000
+minDistanceFromPlayer = 0
+maxDistanceFromPlayer = 64
+durationTicks = 2400
+lavaIntervalTicks = 100
+lavaPerInterval = 6
+fragmentIntervalTicks = 100
+fragmentCount = 5
+ventRadius = 1
+lakeDepth = 3
+allowGenerated = false
+dormantIntervalTicks = 0
+
+[avalanche]
+enabled = true
+chance = 0.0015
+cooldownTicks = 5000
+minDistanceFromPlayer = 0
+maxDistanceFromPlayer = 48
+
+[precipitation]
+enabled = true
+chance = 0.003
+cooldownTicks = 3000
+minDistanceFromPlayer = 0
+maxDistanceFromPlayer = 64
+
+[precipitation.storm]
+enabled = true
+chance = 0.35
+durationTicks = 2400
+lightningIntervalTicks = 40
+singleRiderChance = 0.25
+tripleRiderChance = 0.05
+
+[precipitation.blizzard]
+enabled = true
+chance = 0.25
+durationTicks = 2000
+intervalTicks = 10
+countPerInterval = 12
+spawnCount = 100
+visibilityStrength = 0.4
+damage = 0.6
+
+[precipitation.hail]
+enabled = true
+chance = 0.2
+durationTicks = 1600
+intervalTicks = 10
+countPerInterval = 8
+spawnCount = 32
+visibilityStrength = 0.4
+damage = 1.0
+
+[precipitation.acid_rain]
+enabled = true
+chance = 0.2
+durationTicks = 1600
+intervalTicks = 20
+countPerInterval = 6
+spawnCount = 6
+visibilityStrength = 0.2
+damage = 0.6
+
+[precipitation.dust_storm]
+enabled = true
+chance = 0.2
+durationTicks = 1800
+intervalTicks = 8
+countPerInterval = 12
+spawnCount = 18
+visibilityStrength = 0.8
+damage = 0.0

@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "StormyNight_",
+      "uniqueId": "d8d244af-43f0-318b-be1f-2e4271d263ee"
+    },
+    "time": 1791990833027,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/sZR5HBI97i"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "StormyNight_",
+      "uniqueId": "d8d244af-43f0-318b-be1f-2e4271d263ee"
+    },
+    "time": 1791989985533,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/47cPuIwKHm"
+    }
+  }
+]

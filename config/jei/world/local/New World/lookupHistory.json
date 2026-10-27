@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"movingelevators:elevator_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"movingelevators:display_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"movingelevators:button_block"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

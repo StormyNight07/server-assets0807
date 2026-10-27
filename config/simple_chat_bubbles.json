@@ -1,0 +1,10 @@
+{
+  "enableBubbles": true,
+  "enableTypingDots": true,
+  "hideInFirstPerson": true,
+  "enableSounds": true,
+  "soundVolume": 0.4,
+  "maxRenderDistance": 64.0,
+  "bubbleOpacity": 0.8,
+  "fovCorrection": true
+}
