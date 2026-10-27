@@ -724,10 +724,10 @@
     }
   ],
   "configs": [
-     {
+    {
       "path": "quickerconnectbutton.json5",
       "sha256": "04546d9ec82bfd3e93c37993e694ffff50a383c4174202cf65eca12349ad4486",
       "size": 895
-    },
+    }
   ]
 }
