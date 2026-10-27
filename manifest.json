@@ -910,16 +910,6 @@
       "size": 129
     },
     {
-      "path": "cosmetica/cosmetica.properties",
-      "sha256": "62ce33c803172b81fd3bb5ebd523bcf0334db3421a5a1b738e12a8b1bf9e87e5",
-      "size": 170
-    },
-    {
-      "path": "cosmetica/pack_settings.json.disabled",
-      "sha256": "d8ef02c40b10ca28edba23db2be1db2ba5a13c7a7feb7a757089a7374dda09f7",
-      "size": 804
-    },
-    {
       "path": "creativecore-client.json",
       "sha256": "acb6c8c1394d4d6f2d0c98d5c314c5ef8ad34b8a76f0a420fc596733bcbc51ac",
       "size": 23
