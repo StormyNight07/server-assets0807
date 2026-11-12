@@ -41,7 +41,7 @@
 		persistent_interface: false,
 		// Hides the crosshair while zooming.
 		// default: true
-		hide_crosshair: false,
+		hide_crosshair: true,
 		// Divides the amount of view bobbing with the zoom divisor while zooming.
 		// default: true
 		reduce_view_bobbing: true,

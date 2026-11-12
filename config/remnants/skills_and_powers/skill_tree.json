@@ -1,0 +1,7827 @@
+{
+  "format": 1,
+  "name": "Remnant Constellation",
+  "nodes": [
+    {
+      "id": "pyro.start",
+      "type": "start",
+      "school": "pyromancy",
+      "name": "Pyromancy Origin",
+      "x": 0.0,
+      "y": -160.0,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 10.0,
+        "max_essence": 10.0
+      },
+      "flavor": "Begin your path as a student of Pyromancy.",
+      "links": [
+        "pyro.ring1",
+        "verd.ring2",
+        "pyro.ability.ember_bolt"
+      ]
+    },
+    {
+      "id": "pyro.ring1",
+      "type": "minor",
+      "school": "none",
+      "name": "Remnant Path",
+      "x": 54.7,
+      "y": -150.4,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 3.0
+      },
+      "links": [
+        "pyro.ring2"
+      ]
+    },
+    {
+      "id": "pyro.ring2",
+      "type": "minor",
+      "school": "none",
+      "name": "Remnant Path",
+      "x": 102.8,
+      "y": -122.6,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 6.0
+      },
+      "links": [
+        "storm.start"
+      ]
+    },
+    {
+      "id": "storm.start",
+      "type": "start",
+      "school": "stormcalling",
+      "name": "Stormcalling Origin",
+      "x": 138.6,
+      "y": -80.0,
+      "icon": "minecraft:lightning_rod",
+      "stats": {
+        "storm_damage": 10.0,
+        "movement_speed": 3.0
+      },
+      "flavor": "Begin your path as a student of Stormcalling.",
+      "links": [
+        "storm.ring1",
+        "storm.ability.chain_lightning"
+      ]
+    },
+    {
+      "id": "storm.ring1",
+      "type": "minor",
+      "school": "none",
+      "name": "Remnant Path",
+      "x": 157.6,
+      "y": -27.8,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 3.0
+      },
+      "links": [
+        "storm.ring2"
+      ]
+    },
+    {
+      "id": "storm.ring2",
+      "type": "minor",
+      "school": "none",
+      "name": "Remnant Path",
+      "x": 157.6,
+      "y": 27.8,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 6.0
+      },
+      "links": [
+        "umbral.start"
+      ]
+    },
+    {
+      "id": "umbral.start",
+      "type": "start",
+      "school": "umbral",
+      "name": "Umbral Origin",
+      "x": 138.6,
+      "y": 80.0,
+      "icon": "minecraft:ender_eye",
+      "stats": {
+        "void_damage": 10.0,
+        "lifesteal": 1.0
+      },
+      "flavor": "Begin your path as a student of Umbral Arts.",
+      "links": [
+        "umbral.ring1",
+        "umbral.ability.shadow_bolt"
+      ]
+    },
+    {
+      "id": "umbral.ring1",
+      "type": "minor",
+      "school": "none",
+      "name": "Remnant Path",
+      "x": 102.8,
+      "y": 122.6,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 3.0
+      },
+      "links": [
+        "umbral.ring2"
+      ]
+    },
+    {
+      "id": "umbral.ring2",
+      "type": "minor",
+      "school": "none",
+      "name": "Remnant Path",
+      "x": 54.7,
+      "y": 150.4,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 6.0
+      },
+      "links": [
+        "tide.start"
+      ]
+    },
+    {
+      "id": "tide.start",
+      "type": "start",
+      "school": "tidecalling",
+      "name": "Tidecalling Origin",
+      "x": 0.0,
+      "y": 160.0,
+      "icon": "minecraft:heart_of_the_sea",
+      "stats": {
+        "frost_damage": 10.0,
+        "essence_regen": 10.0
+      },
+      "flavor": "Begin your path as a student of Tidecalling.",
+      "links": [
+        "tide.ring1",
+        "tide.ability.frost_lance"
+      ]
+    },
+    {
+      "id": "tide.ring1",
+      "type": "minor",
+      "school": "none",
+      "name": "Remnant Path",
+      "x": -54.7,
+      "y": 150.4,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 3.0
+      },
+      "links": [
+        "tide.ring2"
+      ]
+    },
+    {
+      "id": "tide.ring2",
+      "type": "minor",
+      "school": "none",
+      "name": "Remnant Path",
+      "x": -102.8,
+      "y": 122.6,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 6.0
+      },
+      "links": [
+        "earth.start"
+      ]
+    },
+    {
+      "id": "earth.start",
+      "type": "start",
+      "school": "earthshaping",
+      "name": "Earthshaping Origin",
+      "x": -138.6,
+      "y": 80.0,
+      "icon": "minecraft:mossy_cobblestone",
+      "stats": {
+        "earth_damage": 10.0,
+        "armor": 2.0
+      },
+      "flavor": "Begin your path as a student of Earthshaping.",
+      "links": [
+        "earth.ring1",
+        "earth.ability.stone_spear"
+      ]
+    },
+    {
+      "id": "earth.ring1",
+      "type": "minor",
+      "school": "none",
+      "name": "Remnant Path",
+      "x": -157.6,
+      "y": 27.8,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 3.0
+      },
+      "links": [
+        "earth.ring2"
+      ]
+    },
+    {
+      "id": "earth.ring2",
+      "type": "minor",
+      "school": "none",
+      "name": "Remnant Path",
+      "x": -157.6,
+      "y": -27.8,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 6.0
+      },
+      "links": [
+        "verd.start"
+      ]
+    },
+    {
+      "id": "verd.start",
+      "type": "start",
+      "school": "verdance",
+      "name": "Verdance Origin",
+      "x": -138.6,
+      "y": -80.0,
+      "icon": "minecraft:glow_berries",
+      "stats": {
+        "life_power": 10.0,
+        "health_regen": 0.1
+      },
+      "flavor": "Begin your path as a student of Verdance.",
+      "links": [
+        "verd.ring1",
+        "verd.ability.mending_light"
+      ]
+    },
+    {
+      "id": "verd.ring1",
+      "type": "minor",
+      "school": "none",
+      "name": "Remnant Path",
+      "x": -102.8,
+      "y": -122.6,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 3.0
+      },
+      "links": [
+        "verd.ring2"
+      ]
+    },
+    {
+      "id": "verd.ring2",
+      "type": "minor",
+      "school": "none",
+      "name": "Remnant Path",
+      "x": -54.7,
+      "y": -150.4,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 6.0
+      }
+    },
+    {
+      "id": "pyro.ability.ember_bolt",
+      "type": "ability",
+      "school": "pyromancy",
+      "name": "Ember Bolt",
+      "x": 0.0,
+      "y": -235.0,
+      "icon": "minecraft:fire_charge",
+      "ability": "ember_bolt",
+      "links": [
+        "pyro.path1",
+        "pyro.path9",
+        "pyro.path17"
+      ]
+    },
+    {
+      "id": "pyro.path1",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Fire Damage",
+      "x": -77.6,
+      "y": -289.8,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 4.0
+      },
+      "links": [
+        "pyro.path2"
+      ]
+    },
+    {
+      "id": "pyro.path2",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Ability Damage",
+      "x": -88.0,
+      "y": -328.4,
+      "icon": "minecraft:amethyst_shard",
+      "stats": {
+        "ability_power": 3.0
+      },
+      "links": [
+        "pyro.path3"
+      ]
+    },
+    {
+      "id": "pyro.path3",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Essence",
+      "x": -98.4,
+      "y": -367.1,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "pyro.l1.ring3"
+      ]
+    },
+    {
+      "id": "pyro.l1.ring0",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Fire Damage",
+      "x": -153.0,
+      "y": -470.7,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 4.0
+      },
+      "links": [
+        "pyro.l1.ring1",
+        "pyro.l1.ring5",
+        "pyro.path4"
+      ]
+    },
+    {
+      "id": "pyro.l1.ring1",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Fire Damage",
+      "x": -113.8,
+      "y": -462.4,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 4.0
+      },
+      "links": [
+        "pyro.l1.ring2",
+        "pyro.l1.notable"
+      ]
+    },
+    {
+      "id": "pyro.l1.ring2",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Fire Damage",
+      "x": -101.5,
+      "y": -424.4,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 4.0
+      },
+      "links": [
+        "pyro.l1.ring3"
+      ]
+    },
+    {
+      "id": "pyro.l1.ring3",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Fire Damage",
+      "x": -128.2,
+      "y": -394.7,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 4.0
+      },
+      "links": [
+        "pyro.l1.ring4"
+      ]
+    },
+    {
+      "id": "pyro.l1.ring4",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Fire Damage",
+      "x": -167.4,
+      "y": -403.0,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 4.0
+      },
+      "links": [
+        "pyro.l1.ring5"
+      ]
+    },
+    {
+      "id": "pyro.l1.ring5",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Fire Damage",
+      "x": -179.7,
+      "y": -441.0,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 4.0
+      },
+      "links": [
+        "pyro.l1.notable",
+        "verd-pyro.inner.b"
+      ]
+    },
+    {
+      "id": "pyro.l1.notable",
+      "type": "notable",
+      "school": "pyromancy",
+      "name": "Searing Focus",
+      "x": -140.6,
+      "y": -432.7,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 15.0,
+        "crit_chance": 5.0
+      },
+      "flavor": "Hold the flame until it is white."
+    },
+    {
+      "id": "pyro.path4",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Kindling",
+      "x": -144.7,
+      "y": -504.7,
+      "icon": "minecraft:flint_and_steel",
+      "stats": {
+        "burn_on_hit": 4.0
+      },
+      "links": [
+        "pyro.path5"
+      ]
+    },
+    {
+      "id": "pyro.path5",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Precision",
+      "x": -154.9,
+      "y": -540.2,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 2.0
+      },
+      "links": [
+        "pyro.ability.ember_shield"
+      ]
+    },
+    {
+      "id": "pyro.ability.ember_shield",
+      "type": "ability",
+      "school": "pyromancy",
+      "name": "Ember Shield",
+      "x": -156.6,
+      "y": -584.4,
+      "icon": "minecraft:blaze_rod",
+      "ability": "ember_shield",
+      "links": [
+        "pyro.path6"
+      ]
+    },
+    {
+      "id": "pyro.path6",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Vitality",
+      "x": -178.6,
+      "y": -622.9,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      },
+      "links": [
+        "pyro.path7"
+      ]
+    },
+    {
+      "id": "pyro.path7",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Fire Damage",
+      "x": -189.6,
+      "y": -661.3,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 4.0
+      },
+      "links": [
+        "pyro.l2.ring3",
+        "pyro.xl1"
+      ]
+    },
+    {
+      "id": "pyro.l2.ring0",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Essence",
+      "x": -247.9,
+      "y": -762.7,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 6.0
+      },
+      "links": [
+        "pyro.l2.ring1",
+        "pyro.l2.ring5",
+        "pyro.path8"
+      ]
+    },
+    {
+      "id": "pyro.l2.ring1",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Essence",
+      "x": -208.7,
+      "y": -754.4,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 6.0
+      },
+      "links": [
+        "pyro.l2.ring2",
+        "pyro.l2.notable"
+      ]
+    },
+    {
+      "id": "pyro.l2.ring2",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Essence",
+      "x": -196.4,
+      "y": -716.4,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 6.0
+      },
+      "links": [
+        "pyro.l2.ring3"
+      ]
+    },
+    {
+      "id": "pyro.l2.ring3",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Essence",
+      "x": -223.1,
+      "y": -686.7,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 6.0
+      },
+      "links": [
+        "pyro.l2.ring4"
+      ]
+    },
+    {
+      "id": "pyro.l2.ring4",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Essence",
+      "x": -262.3,
+      "y": -695.0,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 6.0
+      },
+      "links": [
+        "pyro.l2.ring5"
+      ]
+    },
+    {
+      "id": "pyro.l2.ring5",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Essence",
+      "x": -274.6,
+      "y": -733.0,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 6.0
+      },
+      "links": [
+        "pyro.l2.notable",
+        "verd-pyro.outer.b"
+      ]
+    },
+    {
+      "id": "pyro.l2.notable",
+      "type": "notable",
+      "school": "pyromancy",
+      "name": "Kindled Soul",
+      "x": -235.5,
+      "y": -724.7,
+      "icon": "minecraft:glowstone_dust",
+      "stats": {
+        "max_essence": 25.0,
+        "essence_regen": 10.0
+      },
+      "flavor": "A soul is only fuel that remembers."
+    },
+    {
+      "id": "pyro.path8",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Ability Damage",
+      "x": -257.1,
+      "y": -791.3,
+      "icon": "minecraft:amethyst_shard",
+      "stats": {
+        "ability_power": 3.0
+      },
+      "links": [
+        "pyro.keystone.pyre_heart",
+        "pyro.xl2"
+      ]
+    },
+    {
+      "id": "pyro.keystone.pyre_heart",
+      "type": "keystone",
+      "school": "pyromancy",
+      "name": "Pyre Heart",
+      "x": -275.6,
+      "y": -848.3,
+      "icon": "minecraft:nether_star",
+      "keystone": "pyre_heart",
+      "flavor": "Keystones change the rules. Choose carefully."
+    },
+    {
+      "id": "pyro.path9",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Essence",
+      "x": 0.0,
+      "y": -290.0,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "pyro.path10"
+      ]
+    },
+    {
+      "id": "pyro.path10",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Kindling",
+      "x": 0.0,
+      "y": -330.0,
+      "icon": "minecraft:flint_and_steel",
+      "stats": {
+        "burn_on_hit": 4.0
+      },
+      "links": [
+        "pyro.ability.explosive_orb"
+      ]
+    },
+    {
+      "id": "pyro.ability.explosive_orb",
+      "type": "ability",
+      "school": "pyromancy",
+      "name": "Explosive Orb",
+      "x": 0.0,
+      "y": -380.0,
+      "icon": "minecraft:magma_cream",
+      "ability": "explosive_orb",
+      "links": [
+        "pyro.path11"
+      ]
+    },
+    {
+      "id": "pyro.path11",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Precision",
+      "x": 0.0,
+      "y": -425.0,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 2.0
+      },
+      "links": [
+        "pyro.path12"
+      ]
+    },
+    {
+      "id": "pyro.path12",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Vitality",
+      "x": 0.0,
+      "y": -462.0,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      },
+      "links": [
+        "pyro.m1.ring3"
+      ]
+    },
+    {
+      "id": "pyro.m1.ring0",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Haste of Mind",
+      "x": 0.0,
+      "y": -580.0,
+      "icon": "minecraft:clock",
+      "stats": {
+        "cooldown_reduction": 3.0
+      },
+      "links": [
+        "pyro.m1.ring1",
+        "pyro.m1.ring5",
+        "pyro.path13"
+      ]
+    },
+    {
+      "id": "pyro.m1.ring1",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Haste of Mind",
+      "x": 34.6,
+      "y": -560.0,
+      "icon": "minecraft:clock",
+      "stats": {
+        "cooldown_reduction": 3.0
+      },
+      "links": [
+        "pyro.m1.ring2",
+        "pyro.m1.notable"
+      ]
+    },
+    {
+      "id": "pyro.m1.ring2",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Haste of Mind",
+      "x": 34.6,
+      "y": -520.0,
+      "icon": "minecraft:clock",
+      "stats": {
+        "cooldown_reduction": 3.0
+      },
+      "links": [
+        "pyro.m1.ring3"
+      ]
+    },
+    {
+      "id": "pyro.m1.ring3",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Haste of Mind",
+      "x": 0.0,
+      "y": -500.0,
+      "icon": "minecraft:clock",
+      "stats": {
+        "cooldown_reduction": 3.0
+      },
+      "links": [
+        "pyro.m1.ring4"
+      ]
+    },
+    {
+      "id": "pyro.m1.ring4",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Haste of Mind",
+      "x": -34.6,
+      "y": -520.0,
+      "icon": "minecraft:clock",
+      "stats": {
+        "cooldown_reduction": 3.0
+      },
+      "links": [
+        "pyro.m1.ring5"
+      ]
+    },
+    {
+      "id": "pyro.m1.ring5",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Haste of Mind",
+      "x": -34.6,
+      "y": -560.0,
+      "icon": "minecraft:clock",
+      "stats": {
+        "cooldown_reduction": 3.0
+      },
+      "links": [
+        "pyro.m1.notable"
+      ]
+    },
+    {
+      "id": "pyro.m1.notable",
+      "type": "notable",
+      "school": "pyromancy",
+      "name": "Blaze Rhythm",
+      "x": 0.0,
+      "y": -540.0,
+      "icon": "minecraft:clock",
+      "stats": {
+        "cooldown_reduction": 10.0,
+        "ability_power": 8.0
+      },
+      "flavor": "Breathe in. Burn out. Again."
+    },
+    {
+      "id": "pyro.path13",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Fire Damage",
+      "x": 0.0,
+      "y": -620.0,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 4.0
+      },
+      "links": [
+        "pyro.path14"
+      ]
+    },
+    {
+      "id": "pyro.path14",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Ability Damage",
+      "x": 0.0,
+      "y": -660.0,
+      "icon": "minecraft:amethyst_shard",
+      "stats": {
+        "ability_power": 3.0
+      },
+      "links": [
+        "pyro.m2.ring3",
+        "pyro.xl1",
+        "pyro.xr1"
+      ]
+    },
+    {
+      "id": "pyro.m2.ring0",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Reach",
+      "x": 0.0,
+      "y": -782.0,
+      "icon": "minecraft:firework_star",
+      "stats": {
+        "area": 5.0
+      },
+      "links": [
+        "pyro.m2.ring1",
+        "pyro.m2.ring5",
+        "pyro.path15"
+      ]
+    },
+    {
+      "id": "pyro.m2.ring1",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Reach",
+      "x": 34.6,
+      "y": -762.0,
+      "icon": "minecraft:firework_star",
+      "stats": {
+        "area": 5.0
+      },
+      "links": [
+        "pyro.m2.ring2",
+        "pyro.m2.notable"
+      ]
+    },
+    {
+      "id": "pyro.m2.ring2",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Reach",
+      "x": 34.6,
+      "y": -722.0,
+      "icon": "minecraft:firework_star",
+      "stats": {
+        "area": 5.0
+      },
+      "links": [
+        "pyro.m2.ring3"
+      ]
+    },
+    {
+      "id": "pyro.m2.ring3",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Reach",
+      "x": 0.0,
+      "y": -702.0,
+      "icon": "minecraft:firework_star",
+      "stats": {
+        "area": 5.0
+      },
+      "links": [
+        "pyro.m2.ring4"
+      ]
+    },
+    {
+      "id": "pyro.m2.ring4",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Reach",
+      "x": -34.6,
+      "y": -722.0,
+      "icon": "minecraft:firework_star",
+      "stats": {
+        "area": 5.0
+      },
+      "links": [
+        "pyro.m2.ring5"
+      ]
+    },
+    {
+      "id": "pyro.m2.ring5",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Reach",
+      "x": -34.6,
+      "y": -762.0,
+      "icon": "minecraft:firework_star",
+      "stats": {
+        "area": 5.0
+      },
+      "links": [
+        "pyro.m2.notable"
+      ]
+    },
+    {
+      "id": "pyro.m2.notable",
+      "type": "notable",
+      "school": "pyromancy",
+      "name": "Scorched Earth",
+      "x": 0.0,
+      "y": -742.0,
+      "icon": "minecraft:fire_charge",
+      "stats": {
+        "area": 20.0,
+        "fire_damage": 10.0
+      },
+      "flavor": "Leave nothing for the frost."
+    },
+    {
+      "id": "pyro.path15",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Essence",
+      "x": 0.0,
+      "y": -822.0,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "pyro.path16"
+      ]
+    },
+    {
+      "id": "pyro.path16",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Kindling",
+      "x": 0.0,
+      "y": -862.0,
+      "icon": "minecraft:flint_and_steel",
+      "stats": {
+        "burn_on_hit": 4.0
+      },
+      "links": [
+        "pyro.mastery",
+        "pyro.xl2",
+        "pyro.xr2"
+      ]
+    },
+    {
+      "id": "pyro.mastery",
+      "type": "notable",
+      "school": "pyromancy",
+      "name": "Pyromancer's Mastery",
+      "x": 0.0,
+      "y": -908.0,
+      "icon": "minecraft:fire_charge",
+      "stats": {
+        "fire_damage": 20.0,
+        "crit_damage": 15.0,
+        "ability_power": 5.0
+      },
+      "flavor": "The deepest teaching of Pyromancy.",
+      "links": [
+        "pyro.ability.meteor"
+      ]
+    },
+    {
+      "id": "pyro.ability.meteor",
+      "type": "ability",
+      "school": "pyromancy",
+      "name": "Meteor",
+      "x": 0.0,
+      "y": -972.0,
+      "icon": "minecraft:magma_block",
+      "ability": "meteor",
+      "cost": 2
+    },
+    {
+      "id": "pyro.path17",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Precision",
+      "x": 77.6,
+      "y": -289.8,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 2.0
+      },
+      "links": [
+        "pyro.path18"
+      ]
+    },
+    {
+      "id": "pyro.path18",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Vitality",
+      "x": 88.0,
+      "y": -328.4,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      },
+      "links": [
+        "pyro.path19"
+      ]
+    },
+    {
+      "id": "pyro.path19",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Fire Damage",
+      "x": 98.4,
+      "y": -367.1,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 4.0
+      },
+      "links": [
+        "pyro.r1.ring3"
+      ]
+    },
+    {
+      "id": "pyro.r1.ring0",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Armor",
+      "x": 153.0,
+      "y": -470.7,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "pyro.r1.ring1",
+        "pyro.r1.ring5",
+        "pyro.path20"
+      ]
+    },
+    {
+      "id": "pyro.r1.ring1",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Armor",
+      "x": 179.7,
+      "y": -441.0,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "pyro.r1.ring2",
+        "pyro.r1.notable",
+        "pyro-storm.inner.a"
+      ]
+    },
+    {
+      "id": "pyro.r1.ring2",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Armor",
+      "x": 167.4,
+      "y": -403.0,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "pyro.r1.ring3"
+      ]
+    },
+    {
+      "id": "pyro.r1.ring3",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Armor",
+      "x": 128.2,
+      "y": -394.7,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "pyro.r1.ring4"
+      ]
+    },
+    {
+      "id": "pyro.r1.ring4",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Armor",
+      "x": 101.5,
+      "y": -424.4,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "pyro.r1.ring5"
+      ]
+    },
+    {
+      "id": "pyro.r1.ring5",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Armor",
+      "x": 113.8,
+      "y": -462.4,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "pyro.r1.notable"
+      ]
+    },
+    {
+      "id": "pyro.r1.notable",
+      "type": "notable",
+      "school": "pyromancy",
+      "name": "Ashen Veil",
+      "x": 140.6,
+      "y": -432.7,
+      "icon": "minecraft:chainmail_chestplate",
+      "stats": {
+        "armor": 4.0,
+        "burn_on_hit": 15.0,
+        "max_health": 6.0
+      },
+      "flavor": "Ash settles on those who stand too close."
+    },
+    {
+      "id": "pyro.path20",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Ability Damage",
+      "x": 144.7,
+      "y": -504.7,
+      "icon": "minecraft:amethyst_shard",
+      "stats": {
+        "ability_power": 3.0
+      },
+      "links": [
+        "pyro.path21"
+      ]
+    },
+    {
+      "id": "pyro.path21",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Essence",
+      "x": 154.9,
+      "y": -540.2,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "pyro.ability.inferno_wave"
+      ]
+    },
+    {
+      "id": "pyro.ability.inferno_wave",
+      "type": "ability",
+      "school": "pyromancy",
+      "name": "Inferno Wave",
+      "x": 156.6,
+      "y": -584.4,
+      "icon": "minecraft:flint_and_steel",
+      "ability": "inferno_wave",
+      "links": [
+        "pyro.path22"
+      ]
+    },
+    {
+      "id": "pyro.path22",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Kindling",
+      "x": 178.6,
+      "y": -622.9,
+      "icon": "minecraft:flint_and_steel",
+      "stats": {
+        "burn_on_hit": 4.0
+      },
+      "links": [
+        "pyro.path23"
+      ]
+    },
+    {
+      "id": "pyro.path23",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Precision",
+      "x": 189.6,
+      "y": -661.3,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 2.0
+      },
+      "links": [
+        "pyro.r2.ring3",
+        "pyro.xr1"
+      ]
+    },
+    {
+      "id": "pyro.r2.ring0",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Melee Damage",
+      "x": 247.9,
+      "y": -762.7,
+      "icon": "minecraft:iron_sword",
+      "stats": {
+        "attack_damage": 4.0
+      },
+      "links": [
+        "pyro.r2.ring1",
+        "pyro.r2.ring5",
+        "pyro.path24"
+      ]
+    },
+    {
+      "id": "pyro.r2.ring1",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Melee Damage",
+      "x": 274.6,
+      "y": -733.0,
+      "icon": "minecraft:iron_sword",
+      "stats": {
+        "attack_damage": 4.0
+      },
+      "links": [
+        "pyro.r2.ring2",
+        "pyro.r2.notable",
+        "pyro-storm.outer.a"
+      ]
+    },
+    {
+      "id": "pyro.r2.ring2",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Melee Damage",
+      "x": 262.3,
+      "y": -695.0,
+      "icon": "minecraft:iron_sword",
+      "stats": {
+        "attack_damage": 4.0
+      },
+      "links": [
+        "pyro.r2.ring3"
+      ]
+    },
+    {
+      "id": "pyro.r2.ring3",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Melee Damage",
+      "x": 223.1,
+      "y": -686.7,
+      "icon": "minecraft:iron_sword",
+      "stats": {
+        "attack_damage": 4.0
+      },
+      "links": [
+        "pyro.r2.ring4"
+      ]
+    },
+    {
+      "id": "pyro.r2.ring4",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Melee Damage",
+      "x": 196.4,
+      "y": -716.4,
+      "icon": "minecraft:iron_sword",
+      "stats": {
+        "attack_damage": 4.0
+      },
+      "links": [
+        "pyro.r2.ring5"
+      ]
+    },
+    {
+      "id": "pyro.r2.ring5",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Melee Damage",
+      "x": 208.7,
+      "y": -754.4,
+      "icon": "minecraft:iron_sword",
+      "stats": {
+        "attack_damage": 4.0
+      },
+      "links": [
+        "pyro.r2.notable"
+      ]
+    },
+    {
+      "id": "pyro.r2.notable",
+      "type": "notable",
+      "school": "pyromancy",
+      "name": "Cinderheart",
+      "x": 235.5,
+      "y": -724.7,
+      "icon": "minecraft:blaze_rod",
+      "stats": {
+        "attack_damage": 12.0,
+        "burn_on_hit": 20.0,
+        "attack_speed": 5.0
+      },
+      "flavor": "Every blow a spark."
+    },
+    {
+      "id": "pyro.path24",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Vitality",
+      "x": 257.1,
+      "y": -791.3,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      },
+      "links": [
+        "pyro.keystone.glass_cannon",
+        "pyro.xr2"
+      ]
+    },
+    {
+      "id": "pyro.keystone.glass_cannon",
+      "type": "keystone",
+      "school": "pyromancy",
+      "name": "Glass Cannon",
+      "x": 275.6,
+      "y": -848.3,
+      "icon": "minecraft:end_crystal",
+      "keystone": "glass_cannon",
+      "flavor": "Keystones change the rules. Choose carefully."
+    },
+    {
+      "id": "pyro.xl1",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Fire Damage",
+      "x": -89.3,
+      "y": -635.8,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 4.0
+      }
+    },
+    {
+      "id": "pyro.xl2",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Ability Damage",
+      "x": -132.5,
+      "y": -836.6,
+      "icon": "minecraft:amethyst_shard",
+      "stats": {
+        "ability_power": 3.0
+      }
+    },
+    {
+      "id": "pyro.xr1",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Essence",
+      "x": 89.3,
+      "y": -635.8,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      }
+    },
+    {
+      "id": "pyro.xr2",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Kindling",
+      "x": 132.5,
+      "y": -836.6,
+      "icon": "minecraft:flint_and_steel",
+      "stats": {
+        "burn_on_hit": 4.0
+      }
+    },
+    {
+      "id": "storm.ability.chain_lightning",
+      "type": "ability",
+      "school": "stormcalling",
+      "name": "Chain Lightning",
+      "x": 203.5,
+      "y": -117.5,
+      "icon": "minecraft:lightning_rod",
+      "ability": "chain_lightning",
+      "links": [
+        "storm.path1",
+        "storm.path9",
+        "storm.path17"
+      ]
+    },
+    {
+      "id": "storm.path1",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Storm Damage",
+      "x": 212.1,
+      "y": -212.1,
+      "icon": "minecraft:glowstone_dust",
+      "stats": {
+        "storm_damage": 4.0
+      },
+      "links": [
+        "storm.path2"
+      ]
+    },
+    {
+      "id": "storm.path2",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Swiftness",
+      "x": 240.4,
+      "y": -240.4,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      },
+      "links": [
+        "storm.path3"
+      ]
+    },
+    {
+      "id": "storm.path3",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Precision",
+      "x": 268.7,
+      "y": -268.7,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 2.0
+      },
+      "links": [
+        "storm.l1.ring3"
+      ]
+    },
+    {
+      "id": "storm.l1.ring0",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Precision",
+      "x": 331.3,
+      "y": -367.8,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 2.0
+      },
+      "links": [
+        "storm.l1.ring1",
+        "storm.l1.ring5",
+        "storm.path4"
+      ]
+    },
+    {
+      "id": "storm.l1.ring1",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Precision",
+      "x": 343.6,
+      "y": -329.8,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 2.0
+      },
+      "links": [
+        "storm.l1.ring2",
+        "storm.l1.notable"
+      ]
+    },
+    {
+      "id": "storm.l1.ring2",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Precision",
+      "x": 316.9,
+      "y": -300.1,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 2.0
+      },
+      "links": [
+        "storm.l1.ring3"
+      ]
+    },
+    {
+      "id": "storm.l1.ring3",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Precision",
+      "x": 277.7,
+      "y": -308.4,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 2.0
+      },
+      "links": [
+        "storm.l1.ring4"
+      ]
+    },
+    {
+      "id": "storm.l1.ring4",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Precision",
+      "x": 265.4,
+      "y": -346.4,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 2.0
+      },
+      "links": [
+        "storm.l1.ring5"
+      ]
+    },
+    {
+      "id": "storm.l1.ring5",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Precision",
+      "x": 292.1,
+      "y": -376.1,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 2.0
+      },
+      "links": [
+        "storm.l1.notable",
+        "pyro-storm.inner.b"
+      ]
+    },
+    {
+      "id": "storm.l1.notable",
+      "type": "notable",
+      "school": "stormcalling",
+      "name": "Static Charge",
+      "x": 304.5,
+      "y": -338.1,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 6.0,
+        "crit_damage": 15.0
+      },
+      "flavor": "The air tastes of copper before it breaks."
+    },
+    {
+      "id": "storm.path4",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Essence Flow",
+      "x": 364.7,
+      "y": -377.7,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "storm.path5"
+      ]
+    },
+    {
+      "id": "storm.path5",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Attack Speed",
+      "x": 390.4,
+      "y": -404.3,
+      "icon": "minecraft:golden_sword",
+      "stats": {
+        "attack_speed": 3.0
+      },
+      "links": [
+        "storm.ability.thunderclap"
+      ]
+    },
+    {
+      "id": "storm.ability.thunderclap",
+      "type": "ability",
+      "school": "stormcalling",
+      "name": "Thunderclap",
+      "x": 427.8,
+      "y": -427.8,
+      "icon": "minecraft:firework_rocket",
+      "ability": "thunderclap",
+      "links": [
+        "storm.path6"
+      ]
+    },
+    {
+      "id": "storm.path6",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Essence",
+      "x": 450.1,
+      "y": -466.1,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "storm.path7"
+      ]
+    },
+    {
+      "id": "storm.path7",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Storm Damage",
+      "x": 477.9,
+      "y": -494.9,
+      "icon": "minecraft:glowstone_dust",
+      "stats": {
+        "storm_damage": 4.0
+      },
+      "links": [
+        "storm.l2.ring3",
+        "storm.xl1"
+      ]
+    },
+    {
+      "id": "storm.l2.ring0",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Storm Damage",
+      "x": 536.7,
+      "y": -596.0,
+      "icon": "minecraft:glowstone_dust",
+      "stats": {
+        "storm_damage": 4.0
+      },
+      "links": [
+        "storm.l2.ring1",
+        "storm.l2.ring5",
+        "storm.path8"
+      ]
+    },
+    {
+      "id": "storm.l2.ring1",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Storm Damage",
+      "x": 549.0,
+      "y": -558.0,
+      "icon": "minecraft:glowstone_dust",
+      "stats": {
+        "storm_damage": 4.0
+      },
+      "links": [
+        "storm.l2.ring2",
+        "storm.l2.notable"
+      ]
+    },
+    {
+      "id": "storm.l2.ring2",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Storm Damage",
+      "x": 522.3,
+      "y": -528.3,
+      "icon": "minecraft:glowstone_dust",
+      "stats": {
+        "storm_damage": 4.0
+      },
+      "links": [
+        "storm.l2.ring3"
+      ]
+    },
+    {
+      "id": "storm.l2.ring3",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Storm Damage",
+      "x": 483.1,
+      "y": -536.6,
+      "icon": "minecraft:glowstone_dust",
+      "stats": {
+        "storm_damage": 4.0
+      },
+      "links": [
+        "storm.l2.ring4"
+      ]
+    },
+    {
+      "id": "storm.l2.ring4",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Storm Damage",
+      "x": 470.8,
+      "y": -574.6,
+      "icon": "minecraft:glowstone_dust",
+      "stats": {
+        "storm_damage": 4.0
+      },
+      "links": [
+        "storm.l2.ring5"
+      ]
+    },
+    {
+      "id": "storm.l2.ring5",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Storm Damage",
+      "x": 497.5,
+      "y": -604.3,
+      "icon": "minecraft:glowstone_dust",
+      "stats": {
+        "storm_damage": 4.0
+      },
+      "links": [
+        "storm.l2.notable",
+        "pyro-storm.outer.b"
+      ]
+    },
+    {
+      "id": "storm.l2.notable",
+      "type": "notable",
+      "school": "stormcalling",
+      "name": "Overcurrent",
+      "x": 509.9,
+      "y": -566.3,
+      "icon": "minecraft:redstone",
+      "stats": {
+        "storm_damage": 15.0,
+        "ability_power": 10.0
+      },
+      "flavor": "More than any wire can hold."
+    },
+    {
+      "id": "storm.path8",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Swiftness",
+      "x": 556.7,
+      "y": -618.3,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      },
+      "links": [
+        "storm.keystone.conduit",
+        "storm.xl2"
+      ]
+    },
+    {
+      "id": "storm.keystone.conduit",
+      "type": "keystone",
+      "school": "stormcalling",
+      "name": "Conduit",
+      "x": 596.9,
+      "y": -662.9,
+      "icon": "minecraft:beacon",
+      "keystone": "conduit",
+      "flavor": "Keystones change the rules. Choose carefully."
+    },
+    {
+      "id": "storm.path9",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Precision",
+      "x": 251.1,
+      "y": -145.0,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 2.0
+      },
+      "links": [
+        "storm.path10"
+      ]
+    },
+    {
+      "id": "storm.path10",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Essence Flow",
+      "x": 285.8,
+      "y": -165.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "storm.ability.static_field"
+      ]
+    },
+    {
+      "id": "storm.ability.static_field",
+      "type": "ability",
+      "school": "stormcalling",
+      "name": "Static Field",
+      "x": 329.1,
+      "y": -190.0,
+      "icon": "minecraft:copper_ingot",
+      "ability": "static_field",
+      "links": [
+        "storm.path11"
+      ]
+    },
+    {
+      "id": "storm.path11",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Attack Speed",
+      "x": 368.1,
+      "y": -212.5,
+      "icon": "minecraft:golden_sword",
+      "stats": {
+        "attack_speed": 3.0
+      },
+      "links": [
+        "storm.path12"
+      ]
+    },
+    {
+      "id": "storm.path12",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Essence",
+      "x": 400.1,
+      "y": -231.0,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "storm.m1.ring3"
+      ]
+    },
+    {
+      "id": "storm.m1.ring0",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Haste of Mind",
+      "x": 502.3,
+      "y": -290.0,
+      "icon": "minecraft:clock",
+      "stats": {
+        "cooldown_reduction": 3.0
+      },
+      "links": [
+        "storm.m1.ring1",
+        "storm.m1.ring5",
+        "storm.path13"
+      ]
+    },
+    {
+      "id": "storm.m1.ring1",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Haste of Mind",
+      "x": 502.3,
+      "y": -250.0,
+      "icon": "minecraft:clock",
+      "stats": {
+        "cooldown_reduction": 3.0
+      },
+      "links": [
+        "storm.m1.ring2",
+        "storm.m1.notable"
+      ]
+    },
+    {
+      "id": "storm.m1.ring2",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Haste of Mind",
+      "x": 467.7,
+      "y": -230.0,
+      "icon": "minecraft:clock",
+      "stats": {
+        "cooldown_reduction": 3.0
+      },
+      "links": [
+        "storm.m1.ring3"
+      ]
+    },
+    {
+      "id": "storm.m1.ring3",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Haste of Mind",
+      "x": 433.1,
+      "y": -250.0,
+      "icon": "minecraft:clock",
+      "stats": {
+        "cooldown_reduction": 3.0
+      },
+      "links": [
+        "storm.m1.ring4"
+      ]
+    },
+    {
+      "id": "storm.m1.ring4",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Haste of Mind",
+      "x": 433.1,
+      "y": -290.0,
+      "icon": "minecraft:clock",
+      "stats": {
+        "cooldown_reduction": 3.0
+      },
+      "links": [
+        "storm.m1.ring5"
+      ]
+    },
+    {
+      "id": "storm.m1.ring5",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Haste of Mind",
+      "x": 467.7,
+      "y": -310.0,
+      "icon": "minecraft:clock",
+      "stats": {
+        "cooldown_reduction": 3.0
+      },
+      "links": [
+        "storm.m1.notable"
+      ]
+    },
+    {
+      "id": "storm.m1.notable",
+      "type": "notable",
+      "school": "stormcalling",
+      "name": "Quickened Mind",
+      "x": 467.7,
+      "y": -270.0,
+      "icon": "minecraft:clock",
+      "stats": {
+        "cooldown_reduction": 10.0,
+        "essence_regen": 10.0
+      },
+      "flavor": "Think at the speed of the bolt."
+    },
+    {
+      "id": "storm.path13",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Storm Damage",
+      "x": 536.9,
+      "y": -310.0,
+      "icon": "minecraft:glowstone_dust",
+      "stats": {
+        "storm_damage": 4.0
+      },
+      "links": [
+        "storm.path14"
+      ]
+    },
+    {
+      "id": "storm.path14",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Swiftness",
+      "x": 571.6,
+      "y": -330.0,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      },
+      "links": [
+        "storm.m2.ring3",
+        "storm.xl1",
+        "storm.xr1"
+      ]
+    },
+    {
+      "id": "storm.m2.ring0",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Reach",
+      "x": 677.2,
+      "y": -391.0,
+      "icon": "minecraft:firework_star",
+      "stats": {
+        "area": 4.0
+      },
+      "links": [
+        "storm.m2.ring1",
+        "storm.m2.ring5",
+        "storm.path15"
+      ]
+    },
+    {
+      "id": "storm.m2.ring1",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Reach",
+      "x": 677.2,
+      "y": -351.0,
+      "icon": "minecraft:firework_star",
+      "stats": {
+        "area": 4.0
+      },
+      "links": [
+        "storm.m2.ring2",
+        "storm.m2.notable"
+      ]
+    },
+    {
+      "id": "storm.m2.ring2",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Reach",
+      "x": 642.6,
+      "y": -331.0,
+      "icon": "minecraft:firework_star",
+      "stats": {
+        "area": 4.0
+      },
+      "links": [
+        "storm.m2.ring3"
+      ]
+    },
+    {
+      "id": "storm.m2.ring3",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Reach",
+      "x": 608.0,
+      "y": -351.0,
+      "icon": "minecraft:firework_star",
+      "stats": {
+        "area": 4.0
+      },
+      "links": [
+        "storm.m2.ring4"
+      ]
+    },
+    {
+      "id": "storm.m2.ring4",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Reach",
+      "x": 608.0,
+      "y": -391.0,
+      "icon": "minecraft:firework_star",
+      "stats": {
+        "area": 4.0
+      },
+      "links": [
+        "storm.m2.ring5"
+      ]
+    },
+    {
+      "id": "storm.m2.ring5",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Reach",
+      "x": 642.6,
+      "y": -411.0,
+      "icon": "minecraft:firework_star",
+      "stats": {
+        "area": 4.0
+      },
+      "links": [
+        "storm.m2.notable"
+      ]
+    },
+    {
+      "id": "storm.m2.notable",
+      "type": "notable",
+      "school": "stormcalling",
+      "name": "Eye of the Storm",
+      "x": 642.6,
+      "y": -371.0,
+      "icon": "minecraft:heart_of_the_sea",
+      "stats": {
+        "area": 15.0,
+        "movement_speed": 5.0
+      },
+      "flavor": "Stillness, and all around it ruin."
+    },
+    {
+      "id": "storm.path15",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Precision",
+      "x": 711.9,
+      "y": -411.0,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 2.0
+      },
+      "links": [
+        "storm.path16"
+      ]
+    },
+    {
+      "id": "storm.path16",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Essence Flow",
+      "x": 746.5,
+      "y": -431.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "storm.mastery",
+        "storm.xl2",
+        "storm.xr2"
+      ]
+    },
+    {
+      "id": "storm.mastery",
+      "type": "notable",
+      "school": "stormcalling",
+      "name": "Stormcaller's Mastery",
+      "x": 786.4,
+      "y": -454.0,
+      "icon": "minecraft:lightning_rod",
+      "stats": {
+        "storm_damage": 20.0,
+        "cooldown_reduction": 5.0,
+        "movement_speed": 4.0
+      },
+      "flavor": "The deepest teaching of Stormcalling.",
+      "links": [
+        "storm.ability.tempest"
+      ]
+    },
+    {
+      "id": "storm.ability.tempest",
+      "type": "ability",
+      "school": "stormcalling",
+      "name": "Tempest",
+      "x": 841.8,
+      "y": -486.0,
+      "icon": "minecraft:trident",
+      "ability": "tempest",
+      "cost": 2
+    },
+    {
+      "id": "storm.path17",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Attack Speed",
+      "x": 289.8,
+      "y": -77.6,
+      "icon": "minecraft:golden_sword",
+      "stats": {
+        "attack_speed": 3.0
+      },
+      "links": [
+        "storm.path18"
+      ]
+    },
+    {
+      "id": "storm.path18",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Essence",
+      "x": 328.4,
+      "y": -88.0,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "storm.path19"
+      ]
+    },
+    {
+      "id": "storm.path19",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Storm Damage",
+      "x": 367.1,
+      "y": -98.4,
+      "icon": "minecraft:glowstone_dust",
+      "stats": {
+        "storm_damage": 4.0
+      },
+      "links": [
+        "storm.r1.ring3"
+      ]
+    },
+    {
+      "id": "storm.r1.ring0",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Swiftness",
+      "x": 484.2,
+      "y": -102.9,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      },
+      "links": [
+        "storm.r1.ring1",
+        "storm.r1.ring5",
+        "storm.path20"
+      ]
+    },
+    {
+      "id": "storm.r1.ring1",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Swiftness",
+      "x": 471.9,
+      "y": -64.9,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      },
+      "links": [
+        "storm.r1.ring2",
+        "storm.r1.notable",
+        "storm-umbral.inner.a"
+      ]
+    },
+    {
+      "id": "storm.r1.ring2",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Swiftness",
+      "x": 432.7,
+      "y": -56.6,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      },
+      "links": [
+        "storm.r1.ring3"
+      ]
+    },
+    {
+      "id": "storm.r1.ring3",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Swiftness",
+      "x": 406.0,
+      "y": -86.3,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      },
+      "links": [
+        "storm.r1.ring4"
+      ]
+    },
+    {
+      "id": "storm.r1.ring4",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Swiftness",
+      "x": 418.3,
+      "y": -124.3,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      },
+      "links": [
+        "storm.r1.ring5"
+      ]
+    },
+    {
+      "id": "storm.r1.ring5",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Swiftness",
+      "x": 457.5,
+      "y": -132.6,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      },
+      "links": [
+        "storm.r1.notable"
+      ]
+    },
+    {
+      "id": "storm.r1.notable",
+      "type": "notable",
+      "school": "stormcalling",
+      "name": "Fleet Footed",
+      "x": 445.1,
+      "y": -94.6,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 6.0,
+        "attack_speed": 8.0,
+        "dodge": 5.0
+      },
+      "flavor": "Be gone before the thunder."
+    },
+    {
+      "id": "storm.path20",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Swiftness",
+      "x": 509.4,
+      "y": -127.0,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      },
+      "links": [
+        "storm.path21"
+      ]
+    },
+    {
+      "id": "storm.path21",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Precision",
+      "x": 545.3,
+      "y": -136.0,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 2.0
+      },
+      "links": [
+        "storm.ability.gale_step"
+      ]
+    },
+    {
+      "id": "storm.ability.gale_step",
+      "type": "ability",
+      "school": "stormcalling",
+      "name": "Gale Step",
+      "x": 584.4,
+      "y": -156.6,
+      "icon": "minecraft:feather",
+      "ability": "gale_step",
+      "links": [
+        "storm.path22"
+      ]
+    },
+    {
+      "id": "storm.path22",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Essence Flow",
+      "x": 628.8,
+      "y": -156.8,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "storm.path23"
+      ]
+    },
+    {
+      "id": "storm.path23",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Attack Speed",
+      "x": 667.6,
+      "y": -166.4,
+      "icon": "minecraft:golden_sword",
+      "stats": {
+        "attack_speed": 3.0
+      },
+      "links": [
+        "storm.r2.ring3",
+        "storm.xr1"
+      ]
+    },
+    {
+      "id": "storm.r2.ring0",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Evasion",
+      "x": 784.4,
+      "y": -166.7,
+      "icon": "minecraft:rabbit_foot",
+      "stats": {
+        "dodge": 2.0
+      },
+      "links": [
+        "storm.r2.ring1",
+        "storm.r2.ring5",
+        "storm.path24"
+      ]
+    },
+    {
+      "id": "storm.r2.ring1",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Evasion",
+      "x": 772.1,
+      "y": -128.7,
+      "icon": "minecraft:rabbit_foot",
+      "stats": {
+        "dodge": 2.0
+      },
+      "links": [
+        "storm.r2.ring2",
+        "storm.r2.notable",
+        "storm-umbral.outer.a"
+      ]
+    },
+    {
+      "id": "storm.r2.ring2",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Evasion",
+      "x": 732.9,
+      "y": -120.4,
+      "icon": "minecraft:rabbit_foot",
+      "stats": {
+        "dodge": 2.0
+      },
+      "links": [
+        "storm.r2.ring3"
+      ]
+    },
+    {
+      "id": "storm.r2.ring3",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Evasion",
+      "x": 706.2,
+      "y": -150.1,
+      "icon": "minecraft:rabbit_foot",
+      "stats": {
+        "dodge": 2.0
+      },
+      "links": [
+        "storm.r2.ring4"
+      ]
+    },
+    {
+      "id": "storm.r2.ring4",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Evasion",
+      "x": 718.5,
+      "y": -188.1,
+      "icon": "minecraft:rabbit_foot",
+      "stats": {
+        "dodge": 2.0
+      },
+      "links": [
+        "storm.r2.ring5"
+      ]
+    },
+    {
+      "id": "storm.r2.ring5",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Evasion",
+      "x": 757.7,
+      "y": -196.4,
+      "icon": "minecraft:rabbit_foot",
+      "stats": {
+        "dodge": 2.0
+      },
+      "links": [
+        "storm.r2.notable"
+      ]
+    },
+    {
+      "id": "storm.r2.notable",
+      "type": "notable",
+      "school": "stormcalling",
+      "name": "Gale Dancer",
+      "x": 745.3,
+      "y": -158.4,
+      "icon": "minecraft:phantom_membrane",
+      "stats": {
+        "dodge": 8.0,
+        "fall_reduction": 50.0
+      },
+      "flavor": "Let the wind take the blow."
+    },
+    {
+      "id": "storm.path24",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Essence",
+      "x": 813.8,
+      "y": -173.0,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "storm.keystone.windborne",
+        "storm.xr2"
+      ]
+    },
+    {
+      "id": "storm.keystone.windborne",
+      "type": "keystone",
+      "school": "stormcalling",
+      "name": "Windborne",
+      "x": 872.5,
+      "y": -185.5,
+      "icon": "minecraft:elytra",
+      "keystone": "windborne",
+      "flavor": "Keystones change the rules. Choose carefully."
+    },
+    {
+      "id": "storm.xl1",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Storm Damage",
+      "x": 505.9,
+      "y": -395.3,
+      "icon": "minecraft:glowstone_dust",
+      "stats": {
+        "storm_damage": 4.0
+      }
+    },
+    {
+      "id": "storm.xl2",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Swiftness",
+      "x": 658.2,
+      "y": -533.0,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      }
+    },
+    {
+      "id": "storm.xr1",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Precision",
+      "x": 595.3,
+      "y": -240.5,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 2.0
+      }
+    },
+    {
+      "id": "storm.xr2",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Essence Flow",
+      "x": 790.7,
+      "y": -303.5,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      }
+    },
+    {
+      "id": "umbral.ability.shadow_bolt",
+      "type": "ability",
+      "school": "umbral",
+      "name": "Shadow Bolt",
+      "x": 203.5,
+      "y": 117.5,
+      "icon": "minecraft:wither_rose",
+      "ability": "shadow_bolt",
+      "links": [
+        "umbral.path1",
+        "umbral.path9",
+        "umbral.path17"
+      ]
+    },
+    {
+      "id": "umbral.path1",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Void Damage",
+      "x": 289.8,
+      "y": 77.6,
+      "icon": "minecraft:ender_pearl",
+      "stats": {
+        "void_damage": 4.0
+      },
+      "links": [
+        "umbral.path2"
+      ]
+    },
+    {
+      "id": "umbral.path2",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Leech",
+      "x": 328.4,
+      "y": 88.0,
+      "icon": "minecraft:fermented_spider_eye",
+      "stats": {
+        "lifesteal": 1.0
+      },
+      "links": [
+        "umbral.path3"
+      ]
+    },
+    {
+      "id": "umbral.path3",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Ruthlessness",
+      "x": 367.1,
+      "y": 98.4,
+      "icon": "minecraft:diamond",
+      "stats": {
+        "crit_damage": 4.0
+      },
+      "links": [
+        "umbral.l1.ring3"
+      ]
+    },
+    {
+      "id": "umbral.l1.ring0",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Leech",
+      "x": 484.2,
+      "y": 102.9,
+      "icon": "minecraft:fermented_spider_eye",
+      "stats": {
+        "lifesteal": 1.0
+      },
+      "links": [
+        "umbral.l1.ring1",
+        "umbral.l1.ring5",
+        "umbral.path4"
+      ]
+    },
+    {
+      "id": "umbral.l1.ring1",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Leech",
+      "x": 457.5,
+      "y": 132.6,
+      "icon": "minecraft:fermented_spider_eye",
+      "stats": {
+        "lifesteal": 1.0
+      },
+      "links": [
+        "umbral.l1.ring2",
+        "umbral.l1.notable"
+      ]
+    },
+    {
+      "id": "umbral.l1.ring2",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Leech",
+      "x": 418.3,
+      "y": 124.3,
+      "icon": "minecraft:fermented_spider_eye",
+      "stats": {
+        "lifesteal": 1.0
+      },
+      "links": [
+        "umbral.l1.ring3"
+      ]
+    },
+    {
+      "id": "umbral.l1.ring3",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Leech",
+      "x": 406.0,
+      "y": 86.3,
+      "icon": "minecraft:fermented_spider_eye",
+      "stats": {
+        "lifesteal": 1.0
+      },
+      "links": [
+        "umbral.l1.ring4"
+      ]
+    },
+    {
+      "id": "umbral.l1.ring4",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Leech",
+      "x": 432.7,
+      "y": 56.6,
+      "icon": "minecraft:fermented_spider_eye",
+      "stats": {
+        "lifesteal": 1.0
+      },
+      "links": [
+        "umbral.l1.ring5"
+      ]
+    },
+    {
+      "id": "umbral.l1.ring5",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Leech",
+      "x": 471.9,
+      "y": 64.9,
+      "icon": "minecraft:fermented_spider_eye",
+      "stats": {
+        "lifesteal": 1.0
+      },
+      "links": [
+        "umbral.l1.notable",
+        "storm-umbral.inner.b"
+      ]
+    },
+    {
+      "id": "umbral.l1.notable",
+      "type": "notable",
+      "school": "umbral",
+      "name": "Hungering Dark",
+      "x": 445.1,
+      "y": 94.6,
+      "icon": "minecraft:fermented_spider_eye",
+      "stats": {
+        "lifesteal": 4.0,
+        "void_damage": 8.0
+      },
+      "flavor": "It is always hungry. So are you."
+    },
+    {
+      "id": "umbral.path4",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Vitality",
+      "x": 509.4,
+      "y": 127.0,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      },
+      "links": [
+        "umbral.path5"
+      ]
+    },
+    {
+      "id": "umbral.path5",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Ability Damage",
+      "x": 545.3,
+      "y": 136.0,
+      "icon": "minecraft:amethyst_shard",
+      "stats": {
+        "ability_power": 3.0
+      },
+      "links": [
+        "umbral.ability.void_rift"
+      ]
+    },
+    {
+      "id": "umbral.ability.void_rift",
+      "type": "ability",
+      "school": "umbral",
+      "name": "Void Rift",
+      "x": 584.4,
+      "y": 156.6,
+      "icon": "minecraft:crying_obsidian",
+      "ability": "void_rift",
+      "links": [
+        "umbral.path6"
+      ]
+    },
+    {
+      "id": "umbral.path6",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Evasion",
+      "x": 628.8,
+      "y": 156.8,
+      "icon": "minecraft:phantom_membrane",
+      "stats": {
+        "dodge": 1.0
+      },
+      "links": [
+        "umbral.path7"
+      ]
+    },
+    {
+      "id": "umbral.path7",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Void Damage",
+      "x": 667.6,
+      "y": 166.4,
+      "icon": "minecraft:ender_pearl",
+      "stats": {
+        "void_damage": 4.0
+      },
+      "links": [
+        "umbral.l2.ring3",
+        "umbral.xl1"
+      ]
+    },
+    {
+      "id": "umbral.l2.ring0",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Vitality",
+      "x": 784.4,
+      "y": 166.7,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 4.0
+      },
+      "links": [
+        "umbral.l2.ring1",
+        "umbral.l2.ring5",
+        "umbral.path8"
+      ]
+    },
+    {
+      "id": "umbral.l2.ring1",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Vitality",
+      "x": 757.7,
+      "y": 196.4,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 4.0
+      },
+      "links": [
+        "umbral.l2.ring2",
+        "umbral.l2.notable"
+      ]
+    },
+    {
+      "id": "umbral.l2.ring2",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Vitality",
+      "x": 718.5,
+      "y": 188.1,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 4.0
+      },
+      "links": [
+        "umbral.l2.ring3"
+      ]
+    },
+    {
+      "id": "umbral.l2.ring3",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Vitality",
+      "x": 706.2,
+      "y": 150.1,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 4.0
+      },
+      "links": [
+        "umbral.l2.ring4"
+      ]
+    },
+    {
+      "id": "umbral.l2.ring4",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Vitality",
+      "x": 732.9,
+      "y": 120.4,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 4.0
+      },
+      "links": [
+        "umbral.l2.ring5"
+      ]
+    },
+    {
+      "id": "umbral.l2.ring5",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Vitality",
+      "x": 772.1,
+      "y": 128.7,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 4.0
+      },
+      "links": [
+        "umbral.l2.notable",
+        "storm-umbral.outer.b"
+      ]
+    },
+    {
+      "id": "umbral.l2.notable",
+      "type": "notable",
+      "school": "umbral",
+      "name": "Blood Rite",
+      "x": 745.3,
+      "y": 158.4,
+      "icon": "minecraft:redstone_block",
+      "stats": {
+        "max_health": 12.0,
+        "health_regen": 0.3
+      },
+      "flavor": "Paid in full, paid in blood."
+    },
+    {
+      "id": "umbral.path8",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Leech",
+      "x": 813.8,
+      "y": 173.0,
+      "icon": "minecraft:fermented_spider_eye",
+      "stats": {
+        "lifesteal": 1.0
+      },
+      "links": [
+        "umbral.keystone.blood_pact",
+        "umbral.xl2"
+      ]
+    },
+    {
+      "id": "umbral.keystone.blood_pact",
+      "type": "keystone",
+      "school": "umbral",
+      "name": "Blood Pact",
+      "x": 872.5,
+      "y": 185.5,
+      "icon": "minecraft:wither_skeleton_skull",
+      "keystone": "blood_pact",
+      "flavor": "Keystones change the rules. Choose carefully."
+    },
+    {
+      "id": "umbral.path9",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Ruthlessness",
+      "x": 251.1,
+      "y": 145.0,
+      "icon": "minecraft:diamond",
+      "stats": {
+        "crit_damage": 4.0
+      },
+      "links": [
+        "umbral.path10"
+      ]
+    },
+    {
+      "id": "umbral.path10",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Vitality",
+      "x": 285.8,
+      "y": 165.0,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      },
+      "links": [
+        "umbral.ability.soul_harvest"
+      ]
+    },
+    {
+      "id": "umbral.ability.soul_harvest",
+      "type": "ability",
+      "school": "umbral",
+      "name": "Soul Harvest",
+      "x": 329.1,
+      "y": 190.0,
+      "icon": "minecraft:soul_lantern",
+      "ability": "soul_harvest",
+      "links": [
+        "umbral.path11"
+      ]
+    },
+    {
+      "id": "umbral.path11",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Ability Damage",
+      "x": 368.1,
+      "y": 212.5,
+      "icon": "minecraft:amethyst_shard",
+      "stats": {
+        "ability_power": 3.0
+      },
+      "links": [
+        "umbral.path12"
+      ]
+    },
+    {
+      "id": "umbral.path12",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Evasion",
+      "x": 400.1,
+      "y": 231.0,
+      "icon": "minecraft:phantom_membrane",
+      "stats": {
+        "dodge": 1.0
+      },
+      "links": [
+        "umbral.m1.ring3"
+      ]
+    },
+    {
+      "id": "umbral.m1.ring0",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Void Damage",
+      "x": 502.3,
+      "y": 290.0,
+      "icon": "minecraft:ender_pearl",
+      "stats": {
+        "void_damage": 4.0
+      },
+      "links": [
+        "umbral.m1.ring1",
+        "umbral.m1.ring5",
+        "umbral.path13"
+      ]
+    },
+    {
+      "id": "umbral.m1.ring1",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Void Damage",
+      "x": 467.7,
+      "y": 310.0,
+      "icon": "minecraft:ender_pearl",
+      "stats": {
+        "void_damage": 4.0
+      },
+      "links": [
+        "umbral.m1.ring2",
+        "umbral.m1.notable"
+      ]
+    },
+    {
+      "id": "umbral.m1.ring2",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Void Damage",
+      "x": 433.1,
+      "y": 290.0,
+      "icon": "minecraft:ender_pearl",
+      "stats": {
+        "void_damage": 4.0
+      },
+      "links": [
+        "umbral.m1.ring3"
+      ]
+    },
+    {
+      "id": "umbral.m1.ring3",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Void Damage",
+      "x": 433.1,
+      "y": 250.0,
+      "icon": "minecraft:ender_pearl",
+      "stats": {
+        "void_damage": 4.0
+      },
+      "links": [
+        "umbral.m1.ring4"
+      ]
+    },
+    {
+      "id": "umbral.m1.ring4",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Void Damage",
+      "x": 467.7,
+      "y": 230.0,
+      "icon": "minecraft:ender_pearl",
+      "stats": {
+        "void_damage": 4.0
+      },
+      "links": [
+        "umbral.m1.ring5"
+      ]
+    },
+    {
+      "id": "umbral.m1.ring5",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Void Damage",
+      "x": 502.3,
+      "y": 250.0,
+      "icon": "minecraft:ender_pearl",
+      "stats": {
+        "void_damage": 4.0
+      },
+      "links": [
+        "umbral.m1.notable"
+      ]
+    },
+    {
+      "id": "umbral.m1.notable",
+      "type": "notable",
+      "school": "umbral",
+      "name": "Shadowed Mind",
+      "x": 467.7,
+      "y": 270.0,
+      "icon": "minecraft:ink_sac",
+      "stats": {
+        "void_damage": 15.0,
+        "cooldown_reduction": 5.0
+      },
+      "flavor": "Think where no light reaches."
+    },
+    {
+      "id": "umbral.path13",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Void Damage",
+      "x": 536.9,
+      "y": 310.0,
+      "icon": "minecraft:ender_pearl",
+      "stats": {
+        "void_damage": 4.0
+      },
+      "links": [
+        "umbral.path14"
+      ]
+    },
+    {
+      "id": "umbral.path14",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Leech",
+      "x": 571.6,
+      "y": 330.0,
+      "icon": "minecraft:fermented_spider_eye",
+      "stats": {
+        "lifesteal": 1.0
+      },
+      "links": [
+        "umbral.m2.ring3",
+        "umbral.xl1",
+        "umbral.xr1"
+      ]
+    },
+    {
+      "id": "umbral.m2.ring0",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Ruthlessness",
+      "x": 677.2,
+      "y": 391.0,
+      "icon": "minecraft:diamond",
+      "stats": {
+        "crit_damage": 5.0
+      },
+      "links": [
+        "umbral.m2.ring1",
+        "umbral.m2.ring5",
+        "umbral.path15"
+      ]
+    },
+    {
+      "id": "umbral.m2.ring1",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Ruthlessness",
+      "x": 642.6,
+      "y": 411.0,
+      "icon": "minecraft:diamond",
+      "stats": {
+        "crit_damage": 5.0
+      },
+      "links": [
+        "umbral.m2.ring2",
+        "umbral.m2.notable"
+      ]
+    },
+    {
+      "id": "umbral.m2.ring2",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Ruthlessness",
+      "x": 608.0,
+      "y": 391.0,
+      "icon": "minecraft:diamond",
+      "stats": {
+        "crit_damage": 5.0
+      },
+      "links": [
+        "umbral.m2.ring3"
+      ]
+    },
+    {
+      "id": "umbral.m2.ring3",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Ruthlessness",
+      "x": 608.0,
+      "y": 351.0,
+      "icon": "minecraft:diamond",
+      "stats": {
+        "crit_damage": 5.0
+      },
+      "links": [
+        "umbral.m2.ring4"
+      ]
+    },
+    {
+      "id": "umbral.m2.ring4",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Ruthlessness",
+      "x": 642.6,
+      "y": 331.0,
+      "icon": "minecraft:diamond",
+      "stats": {
+        "crit_damage": 5.0
+      },
+      "links": [
+        "umbral.m2.ring5"
+      ]
+    },
+    {
+      "id": "umbral.m2.ring5",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Ruthlessness",
+      "x": 677.2,
+      "y": 351.0,
+      "icon": "minecraft:diamond",
+      "stats": {
+        "crit_damage": 5.0
+      },
+      "links": [
+        "umbral.m2.notable"
+      ]
+    },
+    {
+      "id": "umbral.m2.notable",
+      "type": "notable",
+      "school": "umbral",
+      "name": "Abyssal Gaze",
+      "x": 642.6,
+      "y": 371.0,
+      "icon": "minecraft:ender_eye",
+      "stats": {
+        "crit_damage": 20.0,
+        "crit_chance": 4.0
+      },
+      "flavor": "The abyss looks back, and finds the weak spot."
+    },
+    {
+      "id": "umbral.path15",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Ruthlessness",
+      "x": 711.9,
+      "y": 411.0,
+      "icon": "minecraft:diamond",
+      "stats": {
+        "crit_damage": 4.0
+      },
+      "links": [
+        "umbral.path16"
+      ]
+    },
+    {
+      "id": "umbral.path16",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Vitality",
+      "x": 746.5,
+      "y": 431.0,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      },
+      "links": [
+        "umbral.mastery",
+        "umbral.xl2",
+        "umbral.xr2"
+      ]
+    },
+    {
+      "id": "umbral.mastery",
+      "type": "notable",
+      "school": "umbral",
+      "name": "Umbral Mastery",
+      "x": 786.4,
+      "y": 454.0,
+      "icon": "minecraft:ender_eye",
+      "stats": {
+        "void_damage": 20.0,
+        "lifesteal": 3.0,
+        "crit_chance": 3.0
+      },
+      "flavor": "The deepest teaching of Umbral Arts.",
+      "links": [
+        "umbral.ability.eclipse"
+      ]
+    },
+    {
+      "id": "umbral.ability.eclipse",
+      "type": "ability",
+      "school": "umbral",
+      "name": "Eclipse",
+      "x": 841.8,
+      "y": 486.0,
+      "icon": "minecraft:dragon_breath",
+      "ability": "eclipse",
+      "cost": 2
+    },
+    {
+      "id": "umbral.path17",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Ability Damage",
+      "x": 212.1,
+      "y": 212.1,
+      "icon": "minecraft:amethyst_shard",
+      "stats": {
+        "ability_power": 3.0
+      },
+      "links": [
+        "umbral.path18"
+      ]
+    },
+    {
+      "id": "umbral.path18",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Evasion",
+      "x": 240.4,
+      "y": 240.4,
+      "icon": "minecraft:phantom_membrane",
+      "stats": {
+        "dodge": 1.0
+      },
+      "links": [
+        "umbral.path19"
+      ]
+    },
+    {
+      "id": "umbral.path19",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Void Damage",
+      "x": 268.7,
+      "y": 268.7,
+      "icon": "minecraft:ender_pearl",
+      "stats": {
+        "void_damage": 4.0
+      },
+      "links": [
+        "umbral.r1.ring3"
+      ]
+    },
+    {
+      "id": "umbral.r1.ring0",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Soul Toll",
+      "x": 331.3,
+      "y": 367.8,
+      "icon": "minecraft:soul_lantern",
+      "stats": {
+        "essence_on_kill": 2.0
+      },
+      "links": [
+        "umbral.r1.ring1",
+        "umbral.r1.ring5",
+        "umbral.path20"
+      ]
+    },
+    {
+      "id": "umbral.r1.ring1",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Soul Toll",
+      "x": 292.1,
+      "y": 376.1,
+      "icon": "minecraft:soul_lantern",
+      "stats": {
+        "essence_on_kill": 2.0
+      },
+      "links": [
+        "umbral.r1.ring2",
+        "umbral.r1.notable",
+        "umbral-tide.inner.a"
+      ]
+    },
+    {
+      "id": "umbral.r1.ring2",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Soul Toll",
+      "x": 265.4,
+      "y": 346.4,
+      "icon": "minecraft:soul_lantern",
+      "stats": {
+        "essence_on_kill": 2.0
+      },
+      "links": [
+        "umbral.r1.ring3"
+      ]
+    },
+    {
+      "id": "umbral.r1.ring3",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Soul Toll",
+      "x": 277.7,
+      "y": 308.4,
+      "icon": "minecraft:soul_lantern",
+      "stats": {
+        "essence_on_kill": 2.0
+      },
+      "links": [
+        "umbral.r1.ring4"
+      ]
+    },
+    {
+      "id": "umbral.r1.ring4",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Soul Toll",
+      "x": 316.9,
+      "y": 300.1,
+      "icon": "minecraft:soul_lantern",
+      "stats": {
+        "essence_on_kill": 2.0
+      },
+      "links": [
+        "umbral.r1.ring5"
+      ]
+    },
+    {
+      "id": "umbral.r1.ring5",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Soul Toll",
+      "x": 343.6,
+      "y": 329.8,
+      "icon": "minecraft:soul_lantern",
+      "stats": {
+        "essence_on_kill": 2.0
+      },
+      "links": [
+        "umbral.r1.notable"
+      ]
+    },
+    {
+      "id": "umbral.r1.notable",
+      "type": "notable",
+      "school": "umbral",
+      "name": "Reaper's Toll",
+      "x": 304.5,
+      "y": 338.1,
+      "icon": "minecraft:wither_rose",
+      "stats": {
+        "essence_on_kill": 8.0,
+        "power_xp": 15.0
+      },
+      "flavor": "Every ending pays a toll."
+    },
+    {
+      "id": "umbral.path20",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Leech",
+      "x": 364.7,
+      "y": 377.7,
+      "icon": "minecraft:fermented_spider_eye",
+      "stats": {
+        "lifesteal": 1.0
+      },
+      "links": [
+        "umbral.path21"
+      ]
+    },
+    {
+      "id": "umbral.path21",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Ruthlessness",
+      "x": 390.4,
+      "y": 404.3,
+      "icon": "minecraft:diamond",
+      "stats": {
+        "crit_damage": 4.0
+      },
+      "links": [
+        "umbral.ability.shadow_step"
+      ]
+    },
+    {
+      "id": "umbral.ability.shadow_step",
+      "type": "ability",
+      "school": "umbral",
+      "name": "Shadow Step",
+      "x": 427.8,
+      "y": 427.8,
+      "icon": "minecraft:echo_shard",
+      "ability": "shadow_step",
+      "links": [
+        "umbral.path22"
+      ]
+    },
+    {
+      "id": "umbral.path22",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Vitality",
+      "x": 450.1,
+      "y": 466.1,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      },
+      "links": [
+        "umbral.path23"
+      ]
+    },
+    {
+      "id": "umbral.path23",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Ability Damage",
+      "x": 477.9,
+      "y": 494.9,
+      "icon": "minecraft:amethyst_shard",
+      "stats": {
+        "ability_power": 3.0
+      },
+      "links": [
+        "umbral.r2.ring3",
+        "umbral.xr1"
+      ]
+    },
+    {
+      "id": "umbral.r2.ring0",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Evasion",
+      "x": 536.7,
+      "y": 596.0,
+      "icon": "minecraft:rabbit_foot",
+      "stats": {
+        "dodge": 2.0
+      },
+      "links": [
+        "umbral.r2.ring1",
+        "umbral.r2.ring5",
+        "umbral.path24"
+      ]
+    },
+    {
+      "id": "umbral.r2.ring1",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Evasion",
+      "x": 497.5,
+      "y": 604.3,
+      "icon": "minecraft:rabbit_foot",
+      "stats": {
+        "dodge": 2.0
+      },
+      "links": [
+        "umbral.r2.ring2",
+        "umbral.r2.notable",
+        "umbral-tide.outer.a"
+      ]
+    },
+    {
+      "id": "umbral.r2.ring2",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Evasion",
+      "x": 470.8,
+      "y": 574.6,
+      "icon": "minecraft:rabbit_foot",
+      "stats": {
+        "dodge": 2.0
+      },
+      "links": [
+        "umbral.r2.ring3"
+      ]
+    },
+    {
+      "id": "umbral.r2.ring3",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Evasion",
+      "x": 483.1,
+      "y": 536.6,
+      "icon": "minecraft:rabbit_foot",
+      "stats": {
+        "dodge": 2.0
+      },
+      "links": [
+        "umbral.r2.ring4"
+      ]
+    },
+    {
+      "id": "umbral.r2.ring4",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Evasion",
+      "x": 522.3,
+      "y": 528.3,
+      "icon": "minecraft:rabbit_foot",
+      "stats": {
+        "dodge": 2.0
+      },
+      "links": [
+        "umbral.r2.ring5"
+      ]
+    },
+    {
+      "id": "umbral.r2.ring5",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Evasion",
+      "x": 549.0,
+      "y": 558.0,
+      "icon": "minecraft:rabbit_foot",
+      "stats": {
+        "dodge": 2.0
+      },
+      "links": [
+        "umbral.r2.notable"
+      ]
+    },
+    {
+      "id": "umbral.r2.notable",
+      "type": "notable",
+      "school": "umbral",
+      "name": "Veilwalker",
+      "x": 509.9,
+      "y": 566.3,
+      "icon": "minecraft:black_dye",
+      "stats": {
+        "dodge": 6.0,
+        "movement_speed": 6.0
+      },
+      "flavor": "You were never there."
+    },
+    {
+      "id": "umbral.path24",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Evasion",
+      "x": 556.7,
+      "y": 618.3,
+      "icon": "minecraft:phantom_membrane",
+      "stats": {
+        "dodge": 1.0
+      },
+      "links": [
+        "umbral.keystone.soul_eater",
+        "umbral.xr2"
+      ]
+    },
+    {
+      "id": "umbral.keystone.soul_eater",
+      "type": "keystone",
+      "school": "umbral",
+      "name": "Soul Eater",
+      "x": 596.9,
+      "y": 662.9,
+      "icon": "minecraft:sculk_catalyst",
+      "keystone": "soul_eater",
+      "flavor": "Keystones change the rules. Choose carefully."
+    },
+    {
+      "id": "umbral.xl1",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Void Damage",
+      "x": 595.3,
+      "y": 240.5,
+      "icon": "minecraft:ender_pearl",
+      "stats": {
+        "void_damage": 4.0
+      }
+    },
+    {
+      "id": "umbral.xl2",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Leech",
+      "x": 790.7,
+      "y": 303.5,
+      "icon": "minecraft:fermented_spider_eye",
+      "stats": {
+        "lifesteal": 1.0
+      }
+    },
+    {
+      "id": "umbral.xr1",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Ruthlessness",
+      "x": 505.9,
+      "y": 395.3,
+      "icon": "minecraft:diamond",
+      "stats": {
+        "crit_damage": 4.0
+      }
+    },
+    {
+      "id": "umbral.xr2",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Vitality",
+      "x": 658.2,
+      "y": 533.0,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      }
+    },
+    {
+      "id": "tide.ability.frost_lance",
+      "type": "ability",
+      "school": "tidecalling",
+      "name": "Frost Lance",
+      "x": 0.0,
+      "y": 235.0,
+      "icon": "minecraft:packed_ice",
+      "ability": "frost_lance",
+      "links": [
+        "tide.path1",
+        "tide.path9",
+        "tide.path17"
+      ]
+    },
+    {
+      "id": "tide.path1",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Frost Damage",
+      "x": 77.6,
+      "y": 289.8,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "frost_damage": 4.0
+      },
+      "links": [
+        "tide.path2"
+      ]
+    },
+    {
+      "id": "tide.path2",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Essence",
+      "x": 88.0,
+      "y": 328.4,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "tide.path3"
+      ]
+    },
+    {
+      "id": "tide.path3",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Essence Flow",
+      "x": 98.4,
+      "y": 367.1,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "tide.l1.ring3"
+      ]
+    },
+    {
+      "id": "tide.l1.ring0",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Essence",
+      "x": 153.0,
+      "y": 470.7,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "tide.l1.ring1",
+        "tide.l1.ring5",
+        "tide.path4"
+      ]
+    },
+    {
+      "id": "tide.l1.ring1",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Essence",
+      "x": 113.8,
+      "y": 462.4,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "tide.l1.ring2",
+        "tide.l1.notable"
+      ]
+    },
+    {
+      "id": "tide.l1.ring2",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Essence",
+      "x": 101.5,
+      "y": 424.4,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "tide.l1.ring3"
+      ]
+    },
+    {
+      "id": "tide.l1.ring3",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Essence",
+      "x": 128.2,
+      "y": 394.7,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "tide.l1.ring4"
+      ]
+    },
+    {
+      "id": "tide.l1.ring4",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Essence",
+      "x": 167.4,
+      "y": 403.0,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "tide.l1.ring5"
+      ]
+    },
+    {
+      "id": "tide.l1.ring5",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Essence",
+      "x": 179.7,
+      "y": 441.0,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "tide.l1.notable",
+        "umbral-tide.inner.b"
+      ]
+    },
+    {
+      "id": "tide.l1.notable",
+      "type": "notable",
+      "school": "tidecalling",
+      "name": "Cold Clarity",
+      "x": 140.6,
+      "y": 432.7,
+      "icon": "minecraft:lapis_block",
+      "stats": {
+        "max_essence": 20.0,
+        "essence_regen": 15.0
+      },
+      "flavor": "Clear as meltwater."
+    },
+    {
+      "id": "tide.path4",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Persistence",
+      "x": 144.7,
+      "y": 504.7,
+      "icon": "minecraft:prismarine_crystals",
+      "stats": {
+        "duration": 4.0
+      },
+      "links": [
+        "tide.path5"
+      ]
+    },
+    {
+      "id": "tide.path5",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Chill",
+      "x": 154.9,
+      "y": 540.2,
+      "icon": "minecraft:powder_snow_bucket",
+      "stats": {
+        "chill_on_hit": 3.0
+      },
+      "links": [
+        "tide.ability.glacial_prison"
+      ]
+    },
+    {
+      "id": "tide.ability.glacial_prison",
+      "type": "ability",
+      "school": "tidecalling",
+      "name": "Glacial Prison",
+      "x": 156.6,
+      "y": 584.4,
+      "icon": "minecraft:blue_ice",
+      "ability": "glacial_prison",
+      "links": [
+        "tide.path6"
+      ]
+    },
+    {
+      "id": "tide.path6",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Armor",
+      "x": 178.6,
+      "y": 622.9,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "tide.path7"
+      ]
+    },
+    {
+      "id": "tide.path7",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Frost Damage",
+      "x": 189.6,
+      "y": 661.3,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "frost_damage": 4.0
+      },
+      "links": [
+        "tide.l2.ring3",
+        "tide.xl1"
+      ]
+    },
+    {
+      "id": "tide.l2.ring0",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Armor",
+      "x": 247.9,
+      "y": 762.7,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "tide.l2.ring1",
+        "tide.l2.ring5",
+        "tide.path8"
+      ]
+    },
+    {
+      "id": "tide.l2.ring1",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Armor",
+      "x": 208.7,
+      "y": 754.4,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "tide.l2.ring2",
+        "tide.l2.notable"
+      ]
+    },
+    {
+      "id": "tide.l2.ring2",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Armor",
+      "x": 196.4,
+      "y": 716.4,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "tide.l2.ring3"
+      ]
+    },
+    {
+      "id": "tide.l2.ring3",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Armor",
+      "x": 223.1,
+      "y": 686.7,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "tide.l2.ring4"
+      ]
+    },
+    {
+      "id": "tide.l2.ring4",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Armor",
+      "x": 262.3,
+      "y": 695.0,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "tide.l2.ring5"
+      ]
+    },
+    {
+      "id": "tide.l2.ring5",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Armor",
+      "x": 274.6,
+      "y": 733.0,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "tide.l2.notable",
+        "umbral-tide.outer.b"
+      ]
+    },
+    {
+      "id": "tide.l2.notable",
+      "type": "notable",
+      "school": "tidecalling",
+      "name": "Rime Armor",
+      "x": 235.5,
+      "y": 724.7,
+      "icon": "minecraft:diamond_chestplate",
+      "stats": {
+        "armor": 3.0,
+        "armor_toughness": 2.0,
+        "chill_on_hit": 15.0
+      },
+      "flavor": "Frost is patient armor."
+    },
+    {
+      "id": "tide.path8",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Essence",
+      "x": 257.1,
+      "y": 791.3,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "tide.keystone.eternal_tide",
+        "tide.xl2"
+      ]
+    },
+    {
+      "id": "tide.keystone.eternal_tide",
+      "type": "keystone",
+      "school": "tidecalling",
+      "name": "Eternal Tide",
+      "x": 275.6,
+      "y": 848.3,
+      "icon": "minecraft:conduit",
+      "keystone": "eternal_tide",
+      "flavor": "Keystones change the rules. Choose carefully."
+    },
+    {
+      "id": "tide.path9",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Essence Flow",
+      "x": 0.0,
+      "y": 290.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "tide.path10"
+      ]
+    },
+    {
+      "id": "tide.path10",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Persistence",
+      "x": 0.0,
+      "y": 330.0,
+      "icon": "minecraft:prismarine_crystals",
+      "stats": {
+        "duration": 4.0
+      },
+      "links": [
+        "tide.ability.tidebinder"
+      ]
+    },
+    {
+      "id": "tide.ability.tidebinder",
+      "type": "ability",
+      "school": "tidecalling",
+      "name": "Tidebinder",
+      "x": 0.0,
+      "y": 380.0,
+      "icon": "minecraft:nautilus_shell",
+      "ability": "tidebinder",
+      "links": [
+        "tide.path11"
+      ]
+    },
+    {
+      "id": "tide.path11",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Chill",
+      "x": 0.0,
+      "y": 425.0,
+      "icon": "minecraft:powder_snow_bucket",
+      "stats": {
+        "chill_on_hit": 3.0
+      },
+      "links": [
+        "tide.path12"
+      ]
+    },
+    {
+      "id": "tide.path12",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Armor",
+      "x": 0.0,
+      "y": 462.0,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "tide.m1.ring3"
+      ]
+    },
+    {
+      "id": "tide.m1.ring0",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Persistence",
+      "x": 0.0,
+      "y": 580.0,
+      "icon": "minecraft:prismarine_crystals",
+      "stats": {
+        "duration": 5.0
+      },
+      "links": [
+        "tide.m1.ring1",
+        "tide.m1.ring5",
+        "tide.path13"
+      ]
+    },
+    {
+      "id": "tide.m1.ring1",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Persistence",
+      "x": -34.6,
+      "y": 560.0,
+      "icon": "minecraft:prismarine_crystals",
+      "stats": {
+        "duration": 5.0
+      },
+      "links": [
+        "tide.m1.ring2",
+        "tide.m1.notable"
+      ]
+    },
+    {
+      "id": "tide.m1.ring2",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Persistence",
+      "x": -34.6,
+      "y": 520.0,
+      "icon": "minecraft:prismarine_crystals",
+      "stats": {
+        "duration": 5.0
+      },
+      "links": [
+        "tide.m1.ring3"
+      ]
+    },
+    {
+      "id": "tide.m1.ring3",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Persistence",
+      "x": 0.0,
+      "y": 500.0,
+      "icon": "minecraft:prismarine_crystals",
+      "stats": {
+        "duration": 5.0
+      },
+      "links": [
+        "tide.m1.ring4"
+      ]
+    },
+    {
+      "id": "tide.m1.ring4",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Persistence",
+      "x": 34.6,
+      "y": 520.0,
+      "icon": "minecraft:prismarine_crystals",
+      "stats": {
+        "duration": 5.0
+      },
+      "links": [
+        "tide.m1.ring5"
+      ]
+    },
+    {
+      "id": "tide.m1.ring5",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Persistence",
+      "x": 34.6,
+      "y": 560.0,
+      "icon": "minecraft:prismarine_crystals",
+      "stats": {
+        "duration": 5.0
+      },
+      "links": [
+        "tide.m1.notable"
+      ]
+    },
+    {
+      "id": "tide.m1.notable",
+      "type": "notable",
+      "school": "tidecalling",
+      "name": "Deep Current",
+      "x": 0.0,
+      "y": 540.0,
+      "icon": "minecraft:nautilus_shell",
+      "stats": {
+        "duration": 20.0,
+        "frost_damage": 8.0
+      },
+      "flavor": "What the tide takes, it keeps."
+    },
+    {
+      "id": "tide.path13",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Frost Damage",
+      "x": 0.0,
+      "y": 620.0,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "frost_damage": 4.0
+      },
+      "links": [
+        "tide.path14"
+      ]
+    },
+    {
+      "id": "tide.path14",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Essence",
+      "x": 0.0,
+      "y": 660.0,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "tide.m2.ring3",
+        "tide.xl1",
+        "tide.xr1"
+      ]
+    },
+    {
+      "id": "tide.m2.ring0",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Frost Damage",
+      "x": 0.0,
+      "y": 782.0,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "frost_damage": 4.0
+      },
+      "links": [
+        "tide.m2.ring1",
+        "tide.m2.ring5",
+        "tide.path15"
+      ]
+    },
+    {
+      "id": "tide.m2.ring1",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Frost Damage",
+      "x": -34.6,
+      "y": 762.0,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "frost_damage": 4.0
+      },
+      "links": [
+        "tide.m2.ring2",
+        "tide.m2.notable"
+      ]
+    },
+    {
+      "id": "tide.m2.ring2",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Frost Damage",
+      "x": -34.6,
+      "y": 722.0,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "frost_damage": 4.0
+      },
+      "links": [
+        "tide.m2.ring3"
+      ]
+    },
+    {
+      "id": "tide.m2.ring3",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Frost Damage",
+      "x": 0.0,
+      "y": 702.0,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "frost_damage": 4.0
+      },
+      "links": [
+        "tide.m2.ring4"
+      ]
+    },
+    {
+      "id": "tide.m2.ring4",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Frost Damage",
+      "x": 34.6,
+      "y": 722.0,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "frost_damage": 4.0
+      },
+      "links": [
+        "tide.m2.ring5"
+      ]
+    },
+    {
+      "id": "tide.m2.ring5",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Frost Damage",
+      "x": 34.6,
+      "y": 762.0,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "frost_damage": 4.0
+      },
+      "links": [
+        "tide.m2.notable"
+      ]
+    },
+    {
+      "id": "tide.m2.notable",
+      "type": "notable",
+      "school": "tidecalling",
+      "name": "Shatterpoint",
+      "x": 0.0,
+      "y": 742.0,
+      "icon": "minecraft:packed_ice",
+      "stats": {
+        "frost_damage": 15.0,
+        "crit_damage": 10.0
+      },
+      "flavor": "Everything frozen breaks the same way."
+    },
+    {
+      "id": "tide.path15",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Essence Flow",
+      "x": 0.0,
+      "y": 822.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "tide.path16"
+      ]
+    },
+    {
+      "id": "tide.path16",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Persistence",
+      "x": 0.0,
+      "y": 862.0,
+      "icon": "minecraft:prismarine_crystals",
+      "stats": {
+        "duration": 4.0
+      },
+      "links": [
+        "tide.mastery",
+        "tide.xl2",
+        "tide.xr2"
+      ]
+    },
+    {
+      "id": "tide.mastery",
+      "type": "notable",
+      "school": "tidecalling",
+      "name": "Tidecaller's Mastery",
+      "x": 0.0,
+      "y": 908.0,
+      "icon": "minecraft:heart_of_the_sea",
+      "stats": {
+        "frost_damage": 20.0,
+        "duration": 10.0,
+        "max_essence": 10.0
+      },
+      "flavor": "The deepest teaching of Tidecalling.",
+      "links": [
+        "tide.ability.maelstrom"
+      ]
+    },
+    {
+      "id": "tide.ability.maelstrom",
+      "type": "ability",
+      "school": "tidecalling",
+      "name": "Maelstrom",
+      "x": 0.0,
+      "y": 972.0,
+      "icon": "minecraft:conduit",
+      "ability": "maelstrom",
+      "cost": 2
+    },
+    {
+      "id": "tide.path17",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Chill",
+      "x": -77.6,
+      "y": 289.8,
+      "icon": "minecraft:powder_snow_bucket",
+      "stats": {
+        "chill_on_hit": 3.0
+      },
+      "links": [
+        "tide.path18"
+      ]
+    },
+    {
+      "id": "tide.path18",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Armor",
+      "x": -88.0,
+      "y": 328.4,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "tide.path19"
+      ]
+    },
+    {
+      "id": "tide.path19",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Frost Damage",
+      "x": -98.4,
+      "y": 367.1,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "frost_damage": 4.0
+      },
+      "links": [
+        "tide.r1.ring3"
+      ]
+    },
+    {
+      "id": "tide.r1.ring0",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Swiftness",
+      "x": -153.0,
+      "y": 470.7,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      },
+      "links": [
+        "tide.r1.ring1",
+        "tide.r1.ring5",
+        "tide.path20"
+      ]
+    },
+    {
+      "id": "tide.r1.ring1",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Swiftness",
+      "x": -179.7,
+      "y": 441.0,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      },
+      "links": [
+        "tide.r1.ring2",
+        "tide.r1.notable",
+        "tide-earth.inner.a"
+      ]
+    },
+    {
+      "id": "tide.r1.ring2",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Swiftness",
+      "x": -167.4,
+      "y": 403.0,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      },
+      "links": [
+        "tide.r1.ring3"
+      ]
+    },
+    {
+      "id": "tide.r1.ring3",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Swiftness",
+      "x": -128.2,
+      "y": 394.7,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      },
+      "links": [
+        "tide.r1.ring4"
+      ]
+    },
+    {
+      "id": "tide.r1.ring4",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Swiftness",
+      "x": -101.5,
+      "y": 424.4,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      },
+      "links": [
+        "tide.r1.ring5"
+      ]
+    },
+    {
+      "id": "tide.r1.ring5",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Swiftness",
+      "x": -113.8,
+      "y": 462.4,
+      "icon": "minecraft:sugar",
+      "stats": {
+        "movement_speed": 2.0
+      },
+      "links": [
+        "tide.r1.notable"
+      ]
+    },
+    {
+      "id": "tide.r1.notable",
+      "type": "notable",
+      "school": "tidecalling",
+      "name": "Tidal Grace",
+      "x": -140.6,
+      "y": 432.7,
+      "icon": "minecraft:kelp",
+      "stats": {
+        "movement_speed": 5.0,
+        "health_regen": 0.25
+      },
+      "flavor": "Move like water moves."
+    },
+    {
+      "id": "tide.path20",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Essence",
+      "x": -144.7,
+      "y": 504.7,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      },
+      "links": [
+        "tide.path21"
+      ]
+    },
+    {
+      "id": "tide.path21",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Essence Flow",
+      "x": -154.9,
+      "y": 540.2,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "tide.ability.tidal_surge"
+      ]
+    },
+    {
+      "id": "tide.ability.tidal_surge",
+      "type": "ability",
+      "school": "tidecalling",
+      "name": "Tidal Surge",
+      "x": -156.6,
+      "y": 584.4,
+      "icon": "minecraft:prismarine_shard",
+      "ability": "tidal_surge",
+      "links": [
+        "tide.path22"
+      ]
+    },
+    {
+      "id": "tide.path22",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Persistence",
+      "x": -178.6,
+      "y": 622.9,
+      "icon": "minecraft:prismarine_crystals",
+      "stats": {
+        "duration": 4.0
+      },
+      "links": [
+        "tide.path23"
+      ]
+    },
+    {
+      "id": "tide.path23",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Chill",
+      "x": -189.6,
+      "y": 661.3,
+      "icon": "minecraft:powder_snow_bucket",
+      "stats": {
+        "chill_on_hit": 3.0
+      },
+      "links": [
+        "tide.r2.ring3",
+        "tide.xr1"
+      ]
+    },
+    {
+      "id": "tide.r2.ring0",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Chill",
+      "x": -247.9,
+      "y": 762.7,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "chill_on_hit": 3.0
+      },
+      "links": [
+        "tide.r2.ring1",
+        "tide.r2.ring5",
+        "tide.path24"
+      ]
+    },
+    {
+      "id": "tide.r2.ring1",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Chill",
+      "x": -274.6,
+      "y": 733.0,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "chill_on_hit": 3.0
+      },
+      "links": [
+        "tide.r2.ring2",
+        "tide.r2.notable",
+        "tide-earth.outer.a"
+      ]
+    },
+    {
+      "id": "tide.r2.ring2",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Chill",
+      "x": -262.3,
+      "y": 695.0,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "chill_on_hit": 3.0
+      },
+      "links": [
+        "tide.r2.ring3"
+      ]
+    },
+    {
+      "id": "tide.r2.ring3",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Chill",
+      "x": -223.1,
+      "y": 686.7,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "chill_on_hit": 3.0
+      },
+      "links": [
+        "tide.r2.ring4"
+      ]
+    },
+    {
+      "id": "tide.r2.ring4",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Chill",
+      "x": -196.4,
+      "y": 716.4,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "chill_on_hit": 3.0
+      },
+      "links": [
+        "tide.r2.ring5"
+      ]
+    },
+    {
+      "id": "tide.r2.ring5",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Chill",
+      "x": -208.7,
+      "y": 754.4,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "chill_on_hit": 3.0
+      },
+      "links": [
+        "tide.r2.notable"
+      ]
+    },
+    {
+      "id": "tide.r2.notable",
+      "type": "notable",
+      "school": "tidecalling",
+      "name": "Undertow",
+      "x": -235.5,
+      "y": 724.7,
+      "icon": "minecraft:trident",
+      "stats": {
+        "chill_on_hit": 15.0,
+        "attack_damage": 8.0
+      },
+      "flavor": "Pulled under, held down."
+    },
+    {
+      "id": "tide.path24",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Armor",
+      "x": -257.1,
+      "y": 791.3,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "tide.keystone.glacial_bulwark",
+        "tide.xr2"
+      ]
+    },
+    {
+      "id": "tide.keystone.glacial_bulwark",
+      "type": "keystone",
+      "school": "tidecalling",
+      "name": "Glacial Bulwark",
+      "x": -275.6,
+      "y": 848.3,
+      "icon": "minecraft:blue_ice",
+      "keystone": "glacial_bulwark",
+      "flavor": "Keystones change the rules. Choose carefully."
+    },
+    {
+      "id": "tide.xl1",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Frost Damage",
+      "x": 89.3,
+      "y": 635.8,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "frost_damage": 4.0
+      }
+    },
+    {
+      "id": "tide.xl2",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Essence",
+      "x": 132.5,
+      "y": 836.6,
+      "icon": "minecraft:lapis_lazuli",
+      "stats": {
+        "max_essence": 5.0
+      }
+    },
+    {
+      "id": "tide.xr1",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Essence Flow",
+      "x": -89.3,
+      "y": 635.8,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      }
+    },
+    {
+      "id": "tide.xr2",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Persistence",
+      "x": -132.5,
+      "y": 836.6,
+      "icon": "minecraft:prismarine_crystals",
+      "stats": {
+        "duration": 4.0
+      }
+    },
+    {
+      "id": "earth.ability.stone_spear",
+      "type": "ability",
+      "school": "earthshaping",
+      "name": "Stone Spear",
+      "x": -203.5,
+      "y": 117.5,
+      "icon": "minecraft:pointed_dripstone",
+      "ability": "stone_spear",
+      "links": [
+        "earth.path1",
+        "earth.path9",
+        "earth.path17"
+      ]
+    },
+    {
+      "id": "earth.path1",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Earth Damage",
+      "x": -212.1,
+      "y": 212.1,
+      "icon": "minecraft:flint",
+      "stats": {
+        "earth_damage": 4.0
+      },
+      "links": [
+        "earth.path2"
+      ]
+    },
+    {
+      "id": "earth.path2",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Armor",
+      "x": -240.4,
+      "y": 240.4,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "earth.path3"
+      ]
+    },
+    {
+      "id": "earth.path3",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Vitality",
+      "x": -268.7,
+      "y": 268.7,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      },
+      "links": [
+        "earth.l1.ring3"
+      ]
+    },
+    {
+      "id": "earth.l1.ring0",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Vitality",
+      "x": -331.3,
+      "y": 367.8,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 4.0
+      },
+      "links": [
+        "earth.l1.ring1",
+        "earth.l1.ring5",
+        "earth.path4"
+      ]
+    },
+    {
+      "id": "earth.l1.ring1",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Vitality",
+      "x": -343.6,
+      "y": 329.8,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 4.0
+      },
+      "links": [
+        "earth.l1.ring2",
+        "earth.l1.notable"
+      ]
+    },
+    {
+      "id": "earth.l1.ring2",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Vitality",
+      "x": -316.9,
+      "y": 300.1,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 4.0
+      },
+      "links": [
+        "earth.l1.ring3"
+      ]
+    },
+    {
+      "id": "earth.l1.ring3",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Vitality",
+      "x": -277.7,
+      "y": 308.4,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 4.0
+      },
+      "links": [
+        "earth.l1.ring4"
+      ]
+    },
+    {
+      "id": "earth.l1.ring4",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Vitality",
+      "x": -265.4,
+      "y": 346.4,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 4.0
+      },
+      "links": [
+        "earth.l1.ring5"
+      ]
+    },
+    {
+      "id": "earth.l1.ring5",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Vitality",
+      "x": -292.1,
+      "y": 376.1,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 4.0
+      },
+      "links": [
+        "earth.l1.notable",
+        "tide-earth.inner.b"
+      ]
+    },
+    {
+      "id": "earth.l1.notable",
+      "type": "notable",
+      "school": "earthshaping",
+      "name": "Stoneblood",
+      "x": -304.5,
+      "y": 338.1,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 12.0,
+        "damage_reduction": 5.0
+      },
+      "flavor": "Slow to bleed, slower to fall."
+    },
+    {
+      "id": "earth.path4",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Steadfast",
+      "x": -364.7,
+      "y": 377.7,
+      "icon": "minecraft:moss_block",
+      "stats": {
+        "knockback_resistance": 3.0
+      },
+      "links": [
+        "earth.path5"
+      ]
+    },
+    {
+      "id": "earth.path5",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Melee Damage",
+      "x": -390.4,
+      "y": 404.3,
+      "icon": "minecraft:iron_sword",
+      "stats": {
+        "attack_damage": 3.0
+      },
+      "links": [
+        "earth.ability.tremor"
+      ]
+    },
+    {
+      "id": "earth.ability.tremor",
+      "type": "ability",
+      "school": "earthshaping",
+      "name": "Tremor",
+      "x": -427.8,
+      "y": 427.8,
+      "icon": "minecraft:anvil",
+      "ability": "tremor",
+      "links": [
+        "earth.path6"
+      ]
+    },
+    {
+      "id": "earth.path6",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Fortitude",
+      "x": -450.1,
+      "y": 466.1,
+      "icon": "minecraft:shield",
+      "stats": {
+        "damage_reduction": 1.0
+      },
+      "links": [
+        "earth.path7"
+      ]
+    },
+    {
+      "id": "earth.path7",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Earth Damage",
+      "x": -477.9,
+      "y": 494.9,
+      "icon": "minecraft:flint",
+      "stats": {
+        "earth_damage": 4.0
+      },
+      "links": [
+        "earth.l2.ring3",
+        "earth.xl1"
+      ]
+    },
+    {
+      "id": "earth.l2.ring0",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Armor",
+      "x": -536.7,
+      "y": 596.0,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "earth.l2.ring1",
+        "earth.l2.ring5",
+        "earth.path8"
+      ]
+    },
+    {
+      "id": "earth.l2.ring1",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Armor",
+      "x": -549.0,
+      "y": 558.0,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "earth.l2.ring2",
+        "earth.l2.notable"
+      ]
+    },
+    {
+      "id": "earth.l2.ring2",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Armor",
+      "x": -522.3,
+      "y": 528.3,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "earth.l2.ring3"
+      ]
+    },
+    {
+      "id": "earth.l2.ring3",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Armor",
+      "x": -483.1,
+      "y": 536.6,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "earth.l2.ring4"
+      ]
+    },
+    {
+      "id": "earth.l2.ring4",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Armor",
+      "x": -470.8,
+      "y": 574.6,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "earth.l2.ring5"
+      ]
+    },
+    {
+      "id": "earth.l2.ring5",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Armor",
+      "x": -497.5,
+      "y": 604.3,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "earth.l2.notable",
+        "tide-earth.outer.b"
+      ]
+    },
+    {
+      "id": "earth.l2.notable",
+      "type": "notable",
+      "school": "earthshaping",
+      "name": "Bastion",
+      "x": -509.9,
+      "y": 566.3,
+      "icon": "minecraft:shield",
+      "stats": {
+        "armor": 4.0,
+        "armor_toughness": 2.0,
+        "knockback_resistance": 15.0
+      },
+      "flavor": "Be the wall."
+    },
+    {
+      "id": "earth.path8",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Armor",
+      "x": -556.7,
+      "y": 618.3,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "earth.keystone.unyielding",
+        "earth.xl2"
+      ]
+    },
+    {
+      "id": "earth.keystone.unyielding",
+      "type": "keystone",
+      "school": "earthshaping",
+      "name": "Unyielding",
+      "x": -596.9,
+      "y": 662.9,
+      "icon": "minecraft:netherite_block",
+      "keystone": "unyielding",
+      "flavor": "Keystones change the rules. Choose carefully."
+    },
+    {
+      "id": "earth.path9",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Vitality",
+      "x": -251.1,
+      "y": 145.0,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      },
+      "links": [
+        "earth.path10"
+      ]
+    },
+    {
+      "id": "earth.path10",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Steadfast",
+      "x": -285.8,
+      "y": 165.0,
+      "icon": "minecraft:moss_block",
+      "stats": {
+        "knockback_resistance": 3.0
+      },
+      "links": [
+        "earth.ability.stone_skin"
+      ]
+    },
+    {
+      "id": "earth.ability.stone_skin",
+      "type": "ability",
+      "school": "earthshaping",
+      "name": "Stone Skin",
+      "x": -329.1,
+      "y": 190.0,
+      "icon": "minecraft:iron_block",
+      "ability": "stone_skin",
+      "links": [
+        "earth.path11"
+      ]
+    },
+    {
+      "id": "earth.path11",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Melee Damage",
+      "x": -368.1,
+      "y": 212.5,
+      "icon": "minecraft:iron_sword",
+      "stats": {
+        "attack_damage": 3.0
+      },
+      "links": [
+        "earth.path12"
+      ]
+    },
+    {
+      "id": "earth.path12",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Fortitude",
+      "x": -400.1,
+      "y": 231.0,
+      "icon": "minecraft:shield",
+      "stats": {
+        "damage_reduction": 1.0
+      },
+      "links": [
+        "earth.m1.ring3"
+      ]
+    },
+    {
+      "id": "earth.m1.ring0",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Earth Damage",
+      "x": -502.3,
+      "y": 290.0,
+      "icon": "minecraft:flint",
+      "stats": {
+        "earth_damage": 4.0
+      },
+      "links": [
+        "earth.m1.ring1",
+        "earth.m1.ring5",
+        "earth.path13"
+      ]
+    },
+    {
+      "id": "earth.m1.ring1",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Earth Damage",
+      "x": -502.3,
+      "y": 250.0,
+      "icon": "minecraft:flint",
+      "stats": {
+        "earth_damage": 4.0
+      },
+      "links": [
+        "earth.m1.ring2",
+        "earth.m1.notable"
+      ]
+    },
+    {
+      "id": "earth.m1.ring2",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Earth Damage",
+      "x": -467.7,
+      "y": 230.0,
+      "icon": "minecraft:flint",
+      "stats": {
+        "earth_damage": 4.0
+      },
+      "links": [
+        "earth.m1.ring3"
+      ]
+    },
+    {
+      "id": "earth.m1.ring3",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Earth Damage",
+      "x": -433.1,
+      "y": 250.0,
+      "icon": "minecraft:flint",
+      "stats": {
+        "earth_damage": 4.0
+      },
+      "links": [
+        "earth.m1.ring4"
+      ]
+    },
+    {
+      "id": "earth.m1.ring4",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Earth Damage",
+      "x": -433.1,
+      "y": 290.0,
+      "icon": "minecraft:flint",
+      "stats": {
+        "earth_damage": 4.0
+      },
+      "links": [
+        "earth.m1.ring5"
+      ]
+    },
+    {
+      "id": "earth.m1.ring5",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Earth Damage",
+      "x": -467.7,
+      "y": 310.0,
+      "icon": "minecraft:flint",
+      "stats": {
+        "earth_damage": 4.0
+      },
+      "links": [
+        "earth.m1.notable"
+      ]
+    },
+    {
+      "id": "earth.m1.notable",
+      "type": "notable",
+      "school": "earthshaping",
+      "name": "Tectonic Force",
+      "x": -467.7,
+      "y": 270.0,
+      "icon": "minecraft:tnt",
+      "stats": {
+        "earth_damage": 15.0,
+        "area": 10.0
+      },
+      "flavor": "The ground has been waiting."
+    },
+    {
+      "id": "earth.path13",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Earth Damage",
+      "x": -536.9,
+      "y": 310.0,
+      "icon": "minecraft:flint",
+      "stats": {
+        "earth_damage": 4.0
+      },
+      "links": [
+        "earth.path14"
+      ]
+    },
+    {
+      "id": "earth.path14",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Armor",
+      "x": -571.6,
+      "y": 330.0,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "earth.m2.ring3",
+        "earth.xl1",
+        "earth.xr1"
+      ]
+    },
+    {
+      "id": "earth.m2.ring0",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Steadfast",
+      "x": -677.2,
+      "y": 391.0,
+      "icon": "minecraft:moss_block",
+      "stats": {
+        "knockback_resistance": 4.0
+      },
+      "links": [
+        "earth.m2.ring1",
+        "earth.m2.ring5",
+        "earth.path15"
+      ]
+    },
+    {
+      "id": "earth.m2.ring1",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Steadfast",
+      "x": -677.2,
+      "y": 351.0,
+      "icon": "minecraft:moss_block",
+      "stats": {
+        "knockback_resistance": 4.0
+      },
+      "links": [
+        "earth.m2.ring2",
+        "earth.m2.notable"
+      ]
+    },
+    {
+      "id": "earth.m2.ring2",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Steadfast",
+      "x": -642.6,
+      "y": 331.0,
+      "icon": "minecraft:moss_block",
+      "stats": {
+        "knockback_resistance": 4.0
+      },
+      "links": [
+        "earth.m2.ring3"
+      ]
+    },
+    {
+      "id": "earth.m2.ring3",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Steadfast",
+      "x": -608.0,
+      "y": 351.0,
+      "icon": "minecraft:moss_block",
+      "stats": {
+        "knockback_resistance": 4.0
+      },
+      "links": [
+        "earth.m2.ring4"
+      ]
+    },
+    {
+      "id": "earth.m2.ring4",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Steadfast",
+      "x": -608.0,
+      "y": 391.0,
+      "icon": "minecraft:moss_block",
+      "stats": {
+        "knockback_resistance": 4.0
+      },
+      "links": [
+        "earth.m2.ring5"
+      ]
+    },
+    {
+      "id": "earth.m2.ring5",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Steadfast",
+      "x": -642.6,
+      "y": 411.0,
+      "icon": "minecraft:moss_block",
+      "stats": {
+        "knockback_resistance": 4.0
+      },
+      "links": [
+        "earth.m2.notable"
+      ]
+    },
+    {
+      "id": "earth.m2.notable",
+      "type": "notable",
+      "school": "earthshaping",
+      "name": "Rooted",
+      "x": -642.6,
+      "y": 371.0,
+      "icon": "minecraft:oak_log",
+      "stats": {
+        "knockback_resistance": 20.0,
+        "damage_reduction": 6.0
+      },
+      "flavor": "Roots go deeper than storms."
+    },
+    {
+      "id": "earth.path15",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Vitality",
+      "x": -711.9,
+      "y": 411.0,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      },
+      "links": [
+        "earth.path16"
+      ]
+    },
+    {
+      "id": "earth.path16",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Steadfast",
+      "x": -746.5,
+      "y": 431.0,
+      "icon": "minecraft:moss_block",
+      "stats": {
+        "knockback_resistance": 3.0
+      },
+      "links": [
+        "earth.mastery",
+        "earth.xl2",
+        "earth.xr2"
+      ]
+    },
+    {
+      "id": "earth.mastery",
+      "type": "notable",
+      "school": "earthshaping",
+      "name": "Earthshaper's Mastery",
+      "x": -786.4,
+      "y": 454.0,
+      "icon": "minecraft:mossy_cobblestone",
+      "stats": {
+        "earth_damage": 20.0,
+        "armor": 3.0,
+        "max_health": 6.0
+      },
+      "flavor": "The deepest teaching of Earthshaping.",
+      "links": [
+        "earth.ability.mountains_wrath"
+      ]
+    },
+    {
+      "id": "earth.ability.mountains_wrath",
+      "type": "ability",
+      "school": "earthshaping",
+      "name": "Mountain's Wrath",
+      "x": -841.8,
+      "y": 486.0,
+      "icon": "minecraft:lodestone",
+      "ability": "mountains_wrath",
+      "cost": 2
+    },
+    {
+      "id": "earth.path17",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Melee Damage",
+      "x": -289.8,
+      "y": 77.6,
+      "icon": "minecraft:iron_sword",
+      "stats": {
+        "attack_damage": 3.0
+      },
+      "links": [
+        "earth.path18"
+      ]
+    },
+    {
+      "id": "earth.path18",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Fortitude",
+      "x": -328.4,
+      "y": 88.0,
+      "icon": "minecraft:shield",
+      "stats": {
+        "damage_reduction": 1.0
+      },
+      "links": [
+        "earth.path19"
+      ]
+    },
+    {
+      "id": "earth.path19",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Earth Damage",
+      "x": -367.1,
+      "y": 98.4,
+      "icon": "minecraft:flint",
+      "stats": {
+        "earth_damage": 4.0
+      },
+      "links": [
+        "earth.r1.ring3"
+      ]
+    },
+    {
+      "id": "earth.r1.ring0",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Toughness",
+      "x": -484.2,
+      "y": 102.9,
+      "icon": "minecraft:netherite_scrap",
+      "stats": {
+        "armor_toughness": 1.0
+      },
+      "links": [
+        "earth.r1.ring1",
+        "earth.r1.ring5",
+        "earth.path20"
+      ]
+    },
+    {
+      "id": "earth.r1.ring1",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Toughness",
+      "x": -471.9,
+      "y": 64.9,
+      "icon": "minecraft:netherite_scrap",
+      "stats": {
+        "armor_toughness": 1.0
+      },
+      "links": [
+        "earth.r1.ring2",
+        "earth.r1.notable",
+        "earth-verd.inner.a"
+      ]
+    },
+    {
+      "id": "earth.r1.ring2",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Toughness",
+      "x": -432.7,
+      "y": 56.6,
+      "icon": "minecraft:netherite_scrap",
+      "stats": {
+        "armor_toughness": 1.0
+      },
+      "links": [
+        "earth.r1.ring3"
+      ]
+    },
+    {
+      "id": "earth.r1.ring3",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Toughness",
+      "x": -406.0,
+      "y": 86.3,
+      "icon": "minecraft:netherite_scrap",
+      "stats": {
+        "armor_toughness": 1.0
+      },
+      "links": [
+        "earth.r1.ring4"
+      ]
+    },
+    {
+      "id": "earth.r1.ring4",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Toughness",
+      "x": -418.3,
+      "y": 124.3,
+      "icon": "minecraft:netherite_scrap",
+      "stats": {
+        "armor_toughness": 1.0
+      },
+      "links": [
+        "earth.r1.ring5"
+      ]
+    },
+    {
+      "id": "earth.r1.ring5",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Toughness",
+      "x": -457.5,
+      "y": 132.6,
+      "icon": "minecraft:netherite_scrap",
+      "stats": {
+        "armor_toughness": 1.0
+      },
+      "links": [
+        "earth.r1.notable"
+      ]
+    },
+    {
+      "id": "earth.r1.notable",
+      "type": "notable",
+      "school": "earthshaping",
+      "name": "Ironhide",
+      "x": -445.1,
+      "y": 94.6,
+      "icon": "minecraft:iron_ingot",
+      "stats": {
+        "armor_toughness": 3.0,
+        "thorns": 10.0
+      },
+      "flavor": "Struck iron rings back."
+    },
+    {
+      "id": "earth.path20",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Armor",
+      "x": -509.4,
+      "y": 127.0,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      },
+      "links": [
+        "earth.path21"
+      ]
+    },
+    {
+      "id": "earth.path21",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Vitality",
+      "x": -545.3,
+      "y": 136.0,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      },
+      "links": [
+        "earth.ability.fissure"
+      ]
+    },
+    {
+      "id": "earth.ability.fissure",
+      "type": "ability",
+      "school": "earthshaping",
+      "name": "Fissure",
+      "x": -584.4,
+      "y": 156.6,
+      "icon": "minecraft:dripstone_block",
+      "ability": "fissure",
+      "links": [
+        "earth.path22"
+      ]
+    },
+    {
+      "id": "earth.path22",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Steadfast",
+      "x": -628.8,
+      "y": 156.8,
+      "icon": "minecraft:moss_block",
+      "stats": {
+        "knockback_resistance": 3.0
+      },
+      "links": [
+        "earth.path23"
+      ]
+    },
+    {
+      "id": "earth.path23",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Melee Damage",
+      "x": -667.6,
+      "y": 166.4,
+      "icon": "minecraft:iron_sword",
+      "stats": {
+        "attack_damage": 3.0
+      },
+      "links": [
+        "earth.r2.ring3",
+        "earth.xr1"
+      ]
+    },
+    {
+      "id": "earth.r2.ring0",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Melee Damage",
+      "x": -784.4,
+      "y": 166.7,
+      "icon": "minecraft:iron_sword",
+      "stats": {
+        "attack_damage": 4.0
+      },
+      "links": [
+        "earth.r2.ring1",
+        "earth.r2.ring5",
+        "earth.path24"
+      ]
+    },
+    {
+      "id": "earth.r2.ring1",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Melee Damage",
+      "x": -772.1,
+      "y": 128.7,
+      "icon": "minecraft:iron_sword",
+      "stats": {
+        "attack_damage": 4.0
+      },
+      "links": [
+        "earth.r2.ring2",
+        "earth.r2.notable",
+        "earth-verd.outer.a"
+      ]
+    },
+    {
+      "id": "earth.r2.ring2",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Melee Damage",
+      "x": -732.9,
+      "y": 120.4,
+      "icon": "minecraft:iron_sword",
+      "stats": {
+        "attack_damage": 4.0
+      },
+      "links": [
+        "earth.r2.ring3"
+      ]
+    },
+    {
+      "id": "earth.r2.ring3",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Melee Damage",
+      "x": -706.2,
+      "y": 150.1,
+      "icon": "minecraft:iron_sword",
+      "stats": {
+        "attack_damage": 4.0
+      },
+      "links": [
+        "earth.r2.ring4"
+      ]
+    },
+    {
+      "id": "earth.r2.ring4",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Melee Damage",
+      "x": -718.5,
+      "y": 188.1,
+      "icon": "minecraft:iron_sword",
+      "stats": {
+        "attack_damage": 4.0
+      },
+      "links": [
+        "earth.r2.ring5"
+      ]
+    },
+    {
+      "id": "earth.r2.ring5",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Melee Damage",
+      "x": -757.7,
+      "y": 196.4,
+      "icon": "minecraft:iron_sword",
+      "stats": {
+        "attack_damage": 4.0
+      },
+      "links": [
+        "earth.r2.notable"
+      ]
+    },
+    {
+      "id": "earth.r2.notable",
+      "type": "notable",
+      "school": "earthshaping",
+      "name": "Quarrier",
+      "x": -745.3,
+      "y": 158.4,
+      "icon": "minecraft:iron_pickaxe",
+      "stats": {
+        "attack_damage": 12.0,
+        "luck": 1.0
+      },
+      "flavor": "Break it. Then break what's under it."
+    },
+    {
+      "id": "earth.path24",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Fortitude",
+      "x": -813.8,
+      "y": 173.0,
+      "icon": "minecraft:shield",
+      "stats": {
+        "damage_reduction": 1.0
+      },
+      "links": [
+        "earth.keystone.bedrock_will",
+        "earth.xr2"
+      ]
+    },
+    {
+      "id": "earth.keystone.bedrock_will",
+      "type": "keystone",
+      "school": "earthshaping",
+      "name": "Bedrock Will",
+      "x": -872.5,
+      "y": 185.5,
+      "icon": "minecraft:bedrock",
+      "keystone": "bedrock_will",
+      "flavor": "Keystones change the rules. Choose carefully."
+    },
+    {
+      "id": "earth.xl1",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Earth Damage",
+      "x": -505.9,
+      "y": 395.3,
+      "icon": "minecraft:flint",
+      "stats": {
+        "earth_damage": 4.0
+      }
+    },
+    {
+      "id": "earth.xl2",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Armor",
+      "x": -658.2,
+      "y": 533.0,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 1.0
+      }
+    },
+    {
+      "id": "earth.xr1",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Vitality",
+      "x": -595.3,
+      "y": 240.5,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      }
+    },
+    {
+      "id": "earth.xr2",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Steadfast",
+      "x": -790.7,
+      "y": 303.5,
+      "icon": "minecraft:moss_block",
+      "stats": {
+        "knockback_resistance": 3.0
+      }
+    },
+    {
+      "id": "verd.ability.mending_light",
+      "type": "ability",
+      "school": "verdance",
+      "name": "Mending Light",
+      "x": -203.5,
+      "y": -117.5,
+      "icon": "minecraft:golden_carrot",
+      "ability": "mending_light",
+      "links": [
+        "verd.path1",
+        "verd.path9",
+        "verd.path17"
+      ]
+    },
+    {
+      "id": "verd.path1",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Life Power",
+      "x": -289.8,
+      "y": -77.6,
+      "icon": "minecraft:sweet_berries",
+      "stats": {
+        "life_power": 4.0
+      },
+      "links": [
+        "verd.path2"
+      ]
+    },
+    {
+      "id": "verd.path2",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Regeneration",
+      "x": -328.4,
+      "y": -88.0,
+      "icon": "minecraft:glistering_melon_slice",
+      "stats": {
+        "health_regen": 0.1
+      },
+      "links": [
+        "verd.path3"
+      ]
+    },
+    {
+      "id": "verd.path3",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Vitality",
+      "x": -367.1,
+      "y": -98.4,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      },
+      "links": [
+        "verd.l1.ring3"
+      ]
+    },
+    {
+      "id": "verd.l1.ring0",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Regeneration",
+      "x": -484.2,
+      "y": -102.9,
+      "icon": "minecraft:glistering_melon_slice",
+      "stats": {
+        "health_regen": 0.1
+      },
+      "links": [
+        "verd.l1.ring1",
+        "verd.l1.ring5",
+        "verd.path4"
+      ]
+    },
+    {
+      "id": "verd.l1.ring1",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Regeneration",
+      "x": -457.5,
+      "y": -132.6,
+      "icon": "minecraft:glistering_melon_slice",
+      "stats": {
+        "health_regen": 0.1
+      },
+      "links": [
+        "verd.l1.ring2",
+        "verd.l1.notable"
+      ]
+    },
+    {
+      "id": "verd.l1.ring2",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Regeneration",
+      "x": -418.3,
+      "y": -124.3,
+      "icon": "minecraft:glistering_melon_slice",
+      "stats": {
+        "health_regen": 0.1
+      },
+      "links": [
+        "verd.l1.ring3"
+      ]
+    },
+    {
+      "id": "verd.l1.ring3",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Regeneration",
+      "x": -406.0,
+      "y": -86.3,
+      "icon": "minecraft:glistering_melon_slice",
+      "stats": {
+        "health_regen": 0.1
+      },
+      "links": [
+        "verd.l1.ring4"
+      ]
+    },
+    {
+      "id": "verd.l1.ring4",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Regeneration",
+      "x": -432.7,
+      "y": -56.6,
+      "icon": "minecraft:glistering_melon_slice",
+      "stats": {
+        "health_regen": 0.1
+      },
+      "links": [
+        "verd.l1.ring5"
+      ]
+    },
+    {
+      "id": "verd.l1.ring5",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Regeneration",
+      "x": -471.9,
+      "y": -64.9,
+      "icon": "minecraft:glistering_melon_slice",
+      "stats": {
+        "health_regen": 0.1
+      },
+      "links": [
+        "verd.l1.notable",
+        "earth-verd.inner.b"
+      ]
+    },
+    {
+      "id": "verd.l1.notable",
+      "type": "notable",
+      "school": "verdance",
+      "name": "Wellspring",
+      "x": -445.1,
+      "y": -94.6,
+      "icon": "minecraft:glistering_melon_slice",
+      "stats": {
+        "health_regen": 0.4,
+        "max_health": 8.0
+      },
+      "flavor": "Drink deep. There is always more."
+    },
+    {
+      "id": "verd.path4",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Essence Flow",
+      "x": -509.4,
+      "y": -127.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "verd.path5"
+      ]
+    },
+    {
+      "id": "verd.path5",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Thorns",
+      "x": -545.3,
+      "y": -136.0,
+      "icon": "minecraft:cactus",
+      "stats": {
+        "thorns": 3.0
+      },
+      "links": [
+        "verd.ability.sanctuary"
+      ]
+    },
+    {
+      "id": "verd.ability.sanctuary",
+      "type": "ability",
+      "school": "verdance",
+      "name": "Sanctuary",
+      "x": -584.4,
+      "y": -156.6,
+      "icon": "minecraft:lantern",
+      "ability": "sanctuary",
+      "links": [
+        "verd.path6"
+      ]
+    },
+    {
+      "id": "verd.path6",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Insight",
+      "x": -628.8,
+      "y": -156.8,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "power_xp": 3.0
+      },
+      "links": [
+        "verd.path7"
+      ]
+    },
+    {
+      "id": "verd.path7",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Life Power",
+      "x": -667.6,
+      "y": -166.4,
+      "icon": "minecraft:sweet_berries",
+      "stats": {
+        "life_power": 4.0
+      },
+      "links": [
+        "verd.l2.ring3",
+        "verd.xl1"
+      ]
+    },
+    {
+      "id": "verd.l2.ring0",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Life Power",
+      "x": -784.4,
+      "y": -166.7,
+      "icon": "minecraft:sweet_berries",
+      "stats": {
+        "life_power": 4.0
+      },
+      "links": [
+        "verd.l2.ring1",
+        "verd.l2.ring5",
+        "verd.path8"
+      ]
+    },
+    {
+      "id": "verd.l2.ring1",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Life Power",
+      "x": -757.7,
+      "y": -196.4,
+      "icon": "minecraft:sweet_berries",
+      "stats": {
+        "life_power": 4.0
+      },
+      "links": [
+        "verd.l2.ring2",
+        "verd.l2.notable"
+      ]
+    },
+    {
+      "id": "verd.l2.ring2",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Life Power",
+      "x": -718.5,
+      "y": -188.1,
+      "icon": "minecraft:sweet_berries",
+      "stats": {
+        "life_power": 4.0
+      },
+      "links": [
+        "verd.l2.ring3"
+      ]
+    },
+    {
+      "id": "verd.l2.ring3",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Life Power",
+      "x": -706.2,
+      "y": -150.1,
+      "icon": "minecraft:sweet_berries",
+      "stats": {
+        "life_power": 4.0
+      },
+      "links": [
+        "verd.l2.ring4"
+      ]
+    },
+    {
+      "id": "verd.l2.ring4",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Life Power",
+      "x": -732.9,
+      "y": -120.4,
+      "icon": "minecraft:sweet_berries",
+      "stats": {
+        "life_power": 4.0
+      },
+      "links": [
+        "verd.l2.ring5"
+      ]
+    },
+    {
+      "id": "verd.l2.ring5",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Life Power",
+      "x": -772.1,
+      "y": -128.7,
+      "icon": "minecraft:sweet_berries",
+      "stats": {
+        "life_power": 4.0
+      },
+      "links": [
+        "verd.l2.notable",
+        "earth-verd.outer.b"
+      ]
+    },
+    {
+      "id": "verd.l2.notable",
+      "type": "notable",
+      "school": "verdance",
+      "name": "Bloom",
+      "x": -745.3,
+      "y": -158.4,
+      "icon": "minecraft:pink_tulip",
+      "stats": {
+        "life_power": 15.0,
+        "duration": 10.0
+      },
+      "flavor": "Everything wants to grow."
+    },
+    {
+      "id": "verd.path8",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Regeneration",
+      "x": -813.8,
+      "y": -173.0,
+      "icon": "minecraft:glistering_melon_slice",
+      "stats": {
+        "health_regen": 0.1
+      },
+      "links": [
+        "verd.keystone.undying_grove",
+        "verd.xl2"
+      ]
+    },
+    {
+      "id": "verd.keystone.undying_grove",
+      "type": "keystone",
+      "school": "verdance",
+      "name": "Undying Grove",
+      "x": -872.5,
+      "y": -185.5,
+      "icon": "minecraft:enchanted_golden_apple",
+      "keystone": "undying_grove",
+      "flavor": "Keystones change the rules. Choose carefully."
+    },
+    {
+      "id": "verd.path9",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Vitality",
+      "x": -251.1,
+      "y": -145.0,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      },
+      "links": [
+        "verd.path10"
+      ]
+    },
+    {
+      "id": "verd.path10",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Essence Flow",
+      "x": -285.8,
+      "y": -165.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "verd.ability.thorn_burst"
+      ]
+    },
+    {
+      "id": "verd.ability.thorn_burst",
+      "type": "ability",
+      "school": "verdance",
+      "name": "Thorn Burst",
+      "x": -329.1,
+      "y": -190.0,
+      "icon": "minecraft:poisonous_potato",
+      "ability": "thorn_burst",
+      "links": [
+        "verd.path11"
+      ]
+    },
+    {
+      "id": "verd.path11",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Thorns",
+      "x": -368.1,
+      "y": -212.5,
+      "icon": "minecraft:cactus",
+      "stats": {
+        "thorns": 3.0
+      },
+      "links": [
+        "verd.path12"
+      ]
+    },
+    {
+      "id": "verd.path12",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Insight",
+      "x": -400.1,
+      "y": -231.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "power_xp": 3.0
+      },
+      "links": [
+        "verd.m1.ring3"
+      ]
+    },
+    {
+      "id": "verd.m1.ring0",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Essence Flow",
+      "x": -502.3,
+      "y": -290.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "verd.m1.ring1",
+        "verd.m1.ring5",
+        "verd.path13"
+      ]
+    },
+    {
+      "id": "verd.m1.ring1",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Essence Flow",
+      "x": -467.7,
+      "y": -310.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "verd.m1.ring2",
+        "verd.m1.notable"
+      ]
+    },
+    {
+      "id": "verd.m1.ring2",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Essence Flow",
+      "x": -433.1,
+      "y": -290.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "verd.m1.ring3"
+      ]
+    },
+    {
+      "id": "verd.m1.ring3",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Essence Flow",
+      "x": -433.1,
+      "y": -250.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "verd.m1.ring4"
+      ]
+    },
+    {
+      "id": "verd.m1.ring4",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Essence Flow",
+      "x": -467.7,
+      "y": -230.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "verd.m1.ring5"
+      ]
+    },
+    {
+      "id": "verd.m1.ring5",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Essence Flow",
+      "x": -502.3,
+      "y": -250.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "verd.m1.notable"
+      ]
+    },
+    {
+      "id": "verd.m1.notable",
+      "type": "notable",
+      "school": "verdance",
+      "name": "Sunlit Mind",
+      "x": -467.7,
+      "y": -270.0,
+      "icon": "minecraft:sunflower",
+      "stats": {
+        "essence_regen": 15.0,
+        "max_essence": 10.0
+      },
+      "flavor": "Warm as a clearing at noon."
+    },
+    {
+      "id": "verd.path13",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Life Power",
+      "x": -536.9,
+      "y": -310.0,
+      "icon": "minecraft:sweet_berries",
+      "stats": {
+        "life_power": 4.0
+      },
+      "links": [
+        "verd.path14"
+      ]
+    },
+    {
+      "id": "verd.path14",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Regeneration",
+      "x": -571.6,
+      "y": -330.0,
+      "icon": "minecraft:glistering_melon_slice",
+      "stats": {
+        "health_regen": 0.1
+      },
+      "links": [
+        "verd.m2.ring3",
+        "verd.xl1",
+        "verd.xr1"
+      ]
+    },
+    {
+      "id": "verd.m2.ring0",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Thorns",
+      "x": -677.2,
+      "y": -391.0,
+      "icon": "minecraft:cactus",
+      "stats": {
+        "thorns": 3.0
+      },
+      "links": [
+        "verd.m2.ring1",
+        "verd.m2.ring5",
+        "verd.path15"
+      ]
+    },
+    {
+      "id": "verd.m2.ring1",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Thorns",
+      "x": -642.6,
+      "y": -411.0,
+      "icon": "minecraft:cactus",
+      "stats": {
+        "thorns": 3.0
+      },
+      "links": [
+        "verd.m2.ring2",
+        "verd.m2.notable"
+      ]
+    },
+    {
+      "id": "verd.m2.ring2",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Thorns",
+      "x": -608.0,
+      "y": -391.0,
+      "icon": "minecraft:cactus",
+      "stats": {
+        "thorns": 3.0
+      },
+      "links": [
+        "verd.m2.ring3"
+      ]
+    },
+    {
+      "id": "verd.m2.ring3",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Thorns",
+      "x": -608.0,
+      "y": -351.0,
+      "icon": "minecraft:cactus",
+      "stats": {
+        "thorns": 3.0
+      },
+      "links": [
+        "verd.m2.ring4"
+      ]
+    },
+    {
+      "id": "verd.m2.ring4",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Thorns",
+      "x": -642.6,
+      "y": -331.0,
+      "icon": "minecraft:cactus",
+      "stats": {
+        "thorns": 3.0
+      },
+      "links": [
+        "verd.m2.ring5"
+      ]
+    },
+    {
+      "id": "verd.m2.ring5",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Thorns",
+      "x": -677.2,
+      "y": -351.0,
+      "icon": "minecraft:cactus",
+      "stats": {
+        "thorns": 3.0
+      },
+      "links": [
+        "verd.m2.notable"
+      ]
+    },
+    {
+      "id": "verd.m2.notable",
+      "type": "notable",
+      "school": "verdance",
+      "name": "Thornwall",
+      "x": -642.6,
+      "y": -371.0,
+      "icon": "minecraft:cactus",
+      "stats": {
+        "thorns": 15.0,
+        "armor": 2.0
+      },
+      "flavor": "Touch the rose, learn the thorn."
+    },
+    {
+      "id": "verd.path15",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Vitality",
+      "x": -711.9,
+      "y": -411.0,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      },
+      "links": [
+        "verd.path16"
+      ]
+    },
+    {
+      "id": "verd.path16",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Essence Flow",
+      "x": -746.5,
+      "y": -431.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "verd.mastery",
+        "verd.xl2",
+        "verd.xr2"
+      ]
+    },
+    {
+      "id": "verd.mastery",
+      "type": "notable",
+      "school": "verdance",
+      "name": "Verdant Mastery",
+      "x": -786.4,
+      "y": -454.0,
+      "icon": "minecraft:glow_berries",
+      "stats": {
+        "life_power": 20.0,
+        "health_regen": 0.3,
+        "max_health": 6.0
+      },
+      "flavor": "The deepest teaching of Verdance.",
+      "links": [
+        "verd.ability.verdant_rebirth"
+      ]
+    },
+    {
+      "id": "verd.ability.verdant_rebirth",
+      "type": "ability",
+      "school": "verdance",
+      "name": "Verdant Rebirth",
+      "x": -841.8,
+      "y": -486.0,
+      "icon": "minecraft:totem_of_undying",
+      "ability": "verdant_rebirth",
+      "cost": 2
+    },
+    {
+      "id": "verd.path17",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Thorns",
+      "x": -212.1,
+      "y": -212.1,
+      "icon": "minecraft:cactus",
+      "stats": {
+        "thorns": 3.0
+      },
+      "links": [
+        "verd.path18"
+      ]
+    },
+    {
+      "id": "verd.path18",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Insight",
+      "x": -240.4,
+      "y": -240.4,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "power_xp": 3.0
+      },
+      "links": [
+        "verd.path19"
+      ]
+    },
+    {
+      "id": "verd.path19",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Life Power",
+      "x": -268.7,
+      "y": -268.7,
+      "icon": "minecraft:sweet_berries",
+      "stats": {
+        "life_power": 4.0
+      },
+      "links": [
+        "verd.r1.ring3"
+      ]
+    },
+    {
+      "id": "verd.r1.ring0",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Vitality",
+      "x": -331.3,
+      "y": -367.8,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 3.0
+      },
+      "links": [
+        "verd.r1.ring1",
+        "verd.r1.ring5",
+        "verd.path20"
+      ]
+    },
+    {
+      "id": "verd.r1.ring1",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Vitality",
+      "x": -292.1,
+      "y": -376.1,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 3.0
+      },
+      "links": [
+        "verd.r1.ring2",
+        "verd.r1.notable",
+        "verd-pyro.inner.a"
+      ]
+    },
+    {
+      "id": "verd.r1.ring2",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Vitality",
+      "x": -265.4,
+      "y": -346.4,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 3.0
+      },
+      "links": [
+        "verd.r1.ring3"
+      ]
+    },
+    {
+      "id": "verd.r1.ring3",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Vitality",
+      "x": -277.7,
+      "y": -308.4,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 3.0
+      },
+      "links": [
+        "verd.r1.ring4"
+      ]
+    },
+    {
+      "id": "verd.r1.ring4",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Vitality",
+      "x": -316.9,
+      "y": -300.1,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 3.0
+      },
+      "links": [
+        "verd.r1.ring5"
+      ]
+    },
+    {
+      "id": "verd.r1.ring5",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Vitality",
+      "x": -343.6,
+      "y": -329.8,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 3.0
+      },
+      "links": [
+        "verd.r1.notable"
+      ]
+    },
+    {
+      "id": "verd.r1.notable",
+      "type": "notable",
+      "school": "verdance",
+      "name": "Evergreen",
+      "x": -304.5,
+      "y": -338.1,
+      "icon": "minecraft:spruce_sapling",
+      "stats": {
+        "max_health": 10.0,
+        "damage_reduction": 5.0
+      },
+      "flavor": "Winter passes. The pine remains."
+    },
+    {
+      "id": "verd.path20",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Regeneration",
+      "x": -364.7,
+      "y": -377.7,
+      "icon": "minecraft:glistering_melon_slice",
+      "stats": {
+        "health_regen": 0.1
+      },
+      "links": [
+        "verd.path21"
+      ]
+    },
+    {
+      "id": "verd.path21",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Vitality",
+      "x": -390.4,
+      "y": -404.3,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      },
+      "links": [
+        "verd.ability.radiant_nova"
+      ]
+    },
+    {
+      "id": "verd.ability.radiant_nova",
+      "type": "ability",
+      "school": "verdance",
+      "name": "Radiant Nova",
+      "x": -427.8,
+      "y": -427.8,
+      "icon": "minecraft:sunflower",
+      "ability": "radiant_nova",
+      "links": [
+        "verd.path22"
+      ]
+    },
+    {
+      "id": "verd.path22",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Essence Flow",
+      "x": -450.1,
+      "y": -466.1,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      },
+      "links": [
+        "verd.path23"
+      ]
+    },
+    {
+      "id": "verd.path23",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Thorns",
+      "x": -477.9,
+      "y": -494.9,
+      "icon": "minecraft:cactus",
+      "stats": {
+        "thorns": 3.0
+      },
+      "links": [
+        "verd.r2.ring3",
+        "verd.xr1"
+      ]
+    },
+    {
+      "id": "verd.r2.ring0",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Insight",
+      "x": -536.7,
+      "y": -596.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "power_xp": 4.0
+      },
+      "links": [
+        "verd.r2.ring1",
+        "verd.r2.ring5",
+        "verd.path24"
+      ]
+    },
+    {
+      "id": "verd.r2.ring1",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Insight",
+      "x": -497.5,
+      "y": -604.3,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "power_xp": 4.0
+      },
+      "links": [
+        "verd.r2.ring2",
+        "verd.r2.notable",
+        "verd-pyro.outer.a"
+      ]
+    },
+    {
+      "id": "verd.r2.ring2",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Insight",
+      "x": -470.8,
+      "y": -574.6,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "power_xp": 4.0
+      },
+      "links": [
+        "verd.r2.ring3"
+      ]
+    },
+    {
+      "id": "verd.r2.ring3",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Insight",
+      "x": -483.1,
+      "y": -536.6,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "power_xp": 4.0
+      },
+      "links": [
+        "verd.r2.ring4"
+      ]
+    },
+    {
+      "id": "verd.r2.ring4",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Insight",
+      "x": -522.3,
+      "y": -528.3,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "power_xp": 4.0
+      },
+      "links": [
+        "verd.r2.ring5"
+      ]
+    },
+    {
+      "id": "verd.r2.ring5",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Insight",
+      "x": -549.0,
+      "y": -558.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "power_xp": 4.0
+      },
+      "links": [
+        "verd.r2.notable"
+      ]
+    },
+    {
+      "id": "verd.r2.notable",
+      "type": "notable",
+      "school": "verdance",
+      "name": "Harvester",
+      "x": -509.9,
+      "y": -566.3,
+      "icon": "minecraft:wheat",
+      "stats": {
+        "power_xp": 15.0,
+        "luck": 1.0
+      },
+      "flavor": "Reap what was sown."
+    },
+    {
+      "id": "verd.path24",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Insight",
+      "x": -556.7,
+      "y": -618.3,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "power_xp": 3.0
+      },
+      "links": [
+        "verd.keystone.verdant_bloom",
+        "verd.xr2"
+      ]
+    },
+    {
+      "id": "verd.keystone.verdant_bloom",
+      "type": "keystone",
+      "school": "verdance",
+      "name": "Verdant Bloom",
+      "x": -596.9,
+      "y": -662.9,
+      "icon": "minecraft:flowering_azalea",
+      "keystone": "verdant_bloom",
+      "flavor": "Keystones change the rules. Choose carefully."
+    },
+    {
+      "id": "verd.xl1",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Life Power",
+      "x": -595.3,
+      "y": -240.5,
+      "icon": "minecraft:sweet_berries",
+      "stats": {
+        "life_power": 4.0
+      }
+    },
+    {
+      "id": "verd.xl2",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Regeneration",
+      "x": -790.7,
+      "y": -303.5,
+      "icon": "minecraft:glistering_melon_slice",
+      "stats": {
+        "health_regen": 0.1
+      }
+    },
+    {
+      "id": "verd.xr1",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Vitality",
+      "x": -505.9,
+      "y": -395.3,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 2.0
+      }
+    },
+    {
+      "id": "verd.xr2",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Essence Flow",
+      "x": -658.2,
+      "y": -533.0,
+      "icon": "minecraft:experience_bottle",
+      "stats": {
+        "essence_regen": 4.0
+      }
+    },
+    {
+      "id": "pyro-storm.inner.a",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Fire Damage",
+      "x": 219.8,
+      "y": -471.3,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 4.0
+      },
+      "links": [
+        "pyro-storm.inner.notable"
+      ]
+    },
+    {
+      "id": "pyro-storm.inner.notable",
+      "type": "notable",
+      "school": "none",
+      "name": "Plasma Arc",
+      "x": 270.0,
+      "y": -467.7,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 10.0,
+        "storm_damage": 10.0
+      },
+      "flavor": "Where fire meets storm.",
+      "links": [
+        "pyro-storm.inner.b"
+      ]
+    },
+    {
+      "id": "pyro-storm.inner.b",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Storm Damage",
+      "x": 298.3,
+      "y": -426.0,
+      "icon": "minecraft:glowstone_dust",
+      "stats": {
+        "storm_damage": 4.0
+      }
+    },
+    {
+      "id": "pyro-storm.outer.a",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Precision",
+      "x": 343.2,
+      "y": -735.9,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 4.0
+      },
+      "links": [
+        "pyro-storm.outer.notable"
+      ]
+    },
+    {
+      "id": "pyro-storm.outer.notable",
+      "type": "notable",
+      "school": "none",
+      "name": "Ionized Flame",
+      "x": 415.0,
+      "y": -718.8,
+      "icon": "minecraft:spectral_arrow",
+      "stats": {
+        "crit_chance": 10.0,
+        "fire_damage": 10.0
+      },
+      "flavor": "Where fire meets storm.",
+      "links": [
+        "pyro-storm.outer.b"
+      ]
+    },
+    {
+      "id": "pyro-storm.outer.b",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Fire Damage",
+      "x": 465.7,
+      "y": -665.2,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 4.0
+      }
+    },
+    {
+      "id": "storm-umbral.inner.a",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Storm Damage",
+      "x": 518.0,
+      "y": -45.3,
+      "icon": "minecraft:glowstone_dust",
+      "stats": {
+        "storm_damage": 4.0
+      },
+      "links": [
+        "storm-umbral.inner.notable"
+      ]
+    },
+    {
+      "id": "storm-umbral.inner.notable",
+      "type": "notable",
+      "school": "none",
+      "name": "Eclipsed Static",
+      "x": 540.0,
+      "y": 0.0,
+      "icon": "minecraft:glowstone_dust",
+      "stats": {
+        "storm_damage": 10.0,
+        "void_damage": 10.0
+      },
+      "flavor": "Where storm meets void.",
+      "links": [
+        "storm-umbral.inner.b"
+      ]
+    },
+    {
+      "id": "storm-umbral.inner.b",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Void Damage",
+      "x": 518.0,
+      "y": 45.3,
+      "icon": "minecraft:ender_pearl",
+      "stats": {
+        "void_damage": 4.0
+      }
+    },
+    {
+      "id": "storm-umbral.outer.a",
+      "type": "minor",
+      "school": "stormcalling",
+      "name": "Ruthlessness",
+      "x": 808.9,
+      "y": -70.8,
+      "icon": "minecraft:diamond",
+      "stats": {
+        "crit_damage": 4.0
+      },
+      "links": [
+        "storm-umbral.outer.notable"
+      ]
+    },
+    {
+      "id": "storm-umbral.outer.notable",
+      "type": "notable",
+      "school": "none",
+      "name": "Voidspark",
+      "x": 830.0,
+      "y": 0.0,
+      "icon": "minecraft:diamond",
+      "stats": {
+        "crit_damage": 10.0,
+        "storm_damage": 10.0
+      },
+      "flavor": "Where storm meets void.",
+      "links": [
+        "storm-umbral.outer.b"
+      ]
+    },
+    {
+      "id": "storm-umbral.outer.b",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Storm Damage",
+      "x": 808.9,
+      "y": 70.8,
+      "icon": "minecraft:glowstone_dust",
+      "stats": {
+        "storm_damage": 4.0
+      }
+    },
+    {
+      "id": "umbral-tide.inner.a",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Void Damage",
+      "x": 298.3,
+      "y": 426.0,
+      "icon": "minecraft:ender_pearl",
+      "stats": {
+        "void_damage": 4.0
+      },
+      "links": [
+        "umbral-tide.inner.notable"
+      ]
+    },
+    {
+      "id": "umbral-tide.inner.notable",
+      "type": "notable",
+      "school": "none",
+      "name": "Abyssal Cold",
+      "x": 270.0,
+      "y": 467.7,
+      "icon": "minecraft:ender_pearl",
+      "stats": {
+        "void_damage": 10.0,
+        "frost_damage": 10.0
+      },
+      "flavor": "Where void meets frost.",
+      "links": [
+        "umbral-tide.inner.b"
+      ]
+    },
+    {
+      "id": "umbral-tide.inner.b",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Frost Damage",
+      "x": 219.8,
+      "y": 471.3,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "frost_damage": 4.0
+      }
+    },
+    {
+      "id": "umbral-tide.outer.a",
+      "type": "minor",
+      "school": "umbral",
+      "name": "Leech",
+      "x": 465.7,
+      "y": 665.2,
+      "icon": "minecraft:fermented_spider_eye",
+      "stats": {
+        "lifesteal": 4.0
+      },
+      "links": [
+        "umbral-tide.outer.notable"
+      ]
+    },
+    {
+      "id": "umbral-tide.outer.notable",
+      "type": "notable",
+      "school": "none",
+      "name": "Black Ice",
+      "x": 415.0,
+      "y": 718.8,
+      "icon": "minecraft:fermented_spider_eye",
+      "stats": {
+        "lifesteal": 10.0,
+        "frost_damage": 10.0
+      },
+      "flavor": "Where void meets frost.",
+      "links": [
+        "umbral-tide.outer.b"
+      ]
+    },
+    {
+      "id": "umbral-tide.outer.b",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Frost Damage",
+      "x": 343.2,
+      "y": 735.9,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "frost_damage": 4.0
+      }
+    },
+    {
+      "id": "tide-earth.inner.a",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Frost Damage",
+      "x": -219.8,
+      "y": 471.3,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "frost_damage": 4.0
+      },
+      "links": [
+        "tide-earth.inner.notable"
+      ]
+    },
+    {
+      "id": "tide-earth.inner.notable",
+      "type": "notable",
+      "school": "none",
+      "name": "Permafrost",
+      "x": -270.0,
+      "y": 467.7,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "frost_damage": 10.0,
+        "earth_damage": 10.0
+      },
+      "flavor": "Where frost meets earth.",
+      "links": [
+        "tide-earth.inner.b"
+      ]
+    },
+    {
+      "id": "tide-earth.inner.b",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Earth Damage",
+      "x": -298.3,
+      "y": 426.0,
+      "icon": "minecraft:flint",
+      "stats": {
+        "earth_damage": 4.0
+      }
+    },
+    {
+      "id": "tide-earth.outer.a",
+      "type": "minor",
+      "school": "tidecalling",
+      "name": "Armor",
+      "x": -343.2,
+      "y": 735.9,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 4.0
+      },
+      "links": [
+        "tide-earth.outer.notable"
+      ]
+    },
+    {
+      "id": "tide-earth.outer.notable",
+      "type": "notable",
+      "school": "none",
+      "name": "Glacier's Weight",
+      "x": -415.0,
+      "y": 718.8,
+      "icon": "minecraft:iron_chestplate",
+      "stats": {
+        "armor": 10.0,
+        "frost_damage": 10.0
+      },
+      "flavor": "Where frost meets earth.",
+      "links": [
+        "tide-earth.outer.b"
+      ]
+    },
+    {
+      "id": "tide-earth.outer.b",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Frost Damage",
+      "x": -465.7,
+      "y": 665.2,
+      "icon": "minecraft:snowball",
+      "stats": {
+        "frost_damage": 4.0
+      }
+    },
+    {
+      "id": "earth-verd.inner.a",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Earth Damage",
+      "x": -518.0,
+      "y": 45.3,
+      "icon": "minecraft:flint",
+      "stats": {
+        "earth_damage": 4.0
+      },
+      "links": [
+        "earth-verd.inner.notable"
+      ]
+    },
+    {
+      "id": "earth-verd.inner.notable",
+      "type": "notable",
+      "school": "none",
+      "name": "Overgrowth",
+      "x": -540.0,
+      "y": 0.0,
+      "icon": "minecraft:flint",
+      "stats": {
+        "earth_damage": 10.0,
+        "life_power": 10.0
+      },
+      "flavor": "Where earth meets life.",
+      "links": [
+        "earth-verd.inner.b"
+      ]
+    },
+    {
+      "id": "earth-verd.inner.b",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Life Power",
+      "x": -518.0,
+      "y": -45.3,
+      "icon": "minecraft:sweet_berries",
+      "stats": {
+        "life_power": 4.0
+      }
+    },
+    {
+      "id": "earth-verd.outer.a",
+      "type": "minor",
+      "school": "earthshaping",
+      "name": "Vitality",
+      "x": -808.9,
+      "y": 70.8,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 4.0
+      },
+      "links": [
+        "earth-verd.outer.notable"
+      ]
+    },
+    {
+      "id": "earth-verd.outer.notable",
+      "type": "notable",
+      "school": "none",
+      "name": "Ancient Roots",
+      "x": -830.0,
+      "y": 0.0,
+      "icon": "minecraft:golden_apple",
+      "stats": {
+        "max_health": 10.0,
+        "earth_damage": 10.0
+      },
+      "flavor": "Where earth meets life.",
+      "links": [
+        "earth-verd.outer.b"
+      ]
+    },
+    {
+      "id": "earth-verd.outer.b",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Earth Damage",
+      "x": -808.9,
+      "y": -70.8,
+      "icon": "minecraft:flint",
+      "stats": {
+        "earth_damage": 4.0
+      }
+    },
+    {
+      "id": "verd-pyro.inner.a",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Life Power",
+      "x": -298.3,
+      "y": -426.0,
+      "icon": "minecraft:sweet_berries",
+      "stats": {
+        "life_power": 4.0
+      },
+      "links": [
+        "verd-pyro.inner.notable"
+      ]
+    },
+    {
+      "id": "verd-pyro.inner.notable",
+      "type": "notable",
+      "school": "none",
+      "name": "Phoenix Ash",
+      "x": -270.0,
+      "y": -467.7,
+      "icon": "minecraft:sweet_berries",
+      "stats": {
+        "life_power": 10.0,
+        "fire_damage": 10.0
+      },
+      "flavor": "Where life meets fire.",
+      "links": [
+        "verd-pyro.inner.b"
+      ]
+    },
+    {
+      "id": "verd-pyro.inner.b",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Fire Damage",
+      "x": -219.8,
+      "y": -471.3,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 4.0
+      }
+    },
+    {
+      "id": "verd-pyro.outer.a",
+      "type": "minor",
+      "school": "verdance",
+      "name": "Regeneration",
+      "x": -465.7,
+      "y": -665.2,
+      "icon": "minecraft:glistering_melon_slice",
+      "stats": {
+        "health_regen": 4.0
+      },
+      "links": [
+        "verd-pyro.outer.notable"
+      ]
+    },
+    {
+      "id": "verd-pyro.outer.notable",
+      "type": "notable",
+      "school": "none",
+      "name": "Rekindling",
+      "x": -415.0,
+      "y": -718.8,
+      "icon": "minecraft:glistering_melon_slice",
+      "stats": {
+        "health_regen": 10.0,
+        "fire_damage": 10.0
+      },
+      "flavor": "Where life meets fire.",
+      "links": [
+        "verd-pyro.outer.b"
+      ]
+    },
+    {
+      "id": "verd-pyro.outer.b",
+      "type": "minor",
+      "school": "pyromancy",
+      "name": "Fire Damage",
+      "x": -343.2,
+      "y": -735.9,
+      "icon": "minecraft:blaze_powder",
+      "stats": {
+        "fire_damage": 4.0
+      }
+    }
+  ]
+}

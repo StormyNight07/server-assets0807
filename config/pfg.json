@@ -1,0 +1,11 @@
+{
+  "enabled": false,
+  "frameGeneration": false,
+  "frameGenMode": "MOTION_VECTORS",
+  "frameGenMultiplier": 2,
+  "renderScalePercent": 75.0,
+  "overrideWidth": 0,
+  "overrideHeight": 0,
+  "lockAspectRatio": true,
+  "rcasSharpening": 80.0
+}

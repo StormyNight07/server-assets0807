@@ -1,0 +1,238 @@
+{
+  "ember_bolt": {
+    "enabled": true,
+    "cost": 10.0,
+    "cooldown": 1.5,
+    "damage": 6.0,
+    "burn": 4.0,
+    "speed": 2.2
+  },
+  "explosive_orb": {
+    "enabled": true,
+    "cost": 25.0,
+    "cooldown": 6.0,
+    "damage": 10.0,
+    "radius": 3.5,
+    "speed": 1.4
+  },
+  "ember_shield": {
+    "enabled": true,
+    "cost": 30.0,
+    "cooldown": 18.0,
+    "duration": 10.0,
+    "absorption": 8.0,
+    "burn": 3.0
+  },
+  "inferno_wave": {
+    "enabled": true,
+    "cost": 40.0,
+    "cooldown": 12.0,
+    "damage": 8.0,
+    "radius": 7.0,
+    "burn": 4.0
+  },
+  "meteor": {
+    "enabled": true,
+    "cost": 60.0,
+    "cooldown": 30.0,
+    "damage": 22.0,
+    "radius": 5.0,
+    "range": 32.0,
+    "delay": 1.2,
+    "burn": 5.0
+  },
+  "chain_lightning": {
+    "enabled": true,
+    "cost": 12.0,
+    "cooldown": 2.0,
+    "damage": 5.0,
+    "range": 20.0,
+    "chains": 3.0,
+    "chain_range": 6.0
+  },
+  "static_field": {
+    "enabled": true,
+    "cost": 30.0,
+    "cooldown": 16.0,
+    "damage": 2.0,
+    "radius": 6.0,
+    "duration": 6.0
+  },
+  "thunderclap": {
+    "enabled": true,
+    "cost": 25.0,
+    "cooldown": 10.0,
+    "damage": 6.0,
+    "radius": 5.0,
+    "knockback": 1.6
+  },
+  "gale_step": {
+    "enabled": true,
+    "cost": 15.0,
+    "cooldown": 5.0,
+    "range": 10.0
+  },
+  "tempest": {
+    "enabled": true,
+    "cost": 65.0,
+    "cooldown": 35.0,
+    "damage": 10.0,
+    "strikes": 6.0,
+    "radius": 8.0,
+    "range": 30.0,
+    "duration": 3.0
+  },
+  "shadow_bolt": {
+    "enabled": true,
+    "cost": 12.0,
+    "cooldown": 2.0,
+    "damage": 6.0,
+    "range": 24.0,
+    "wither": 3.0
+  },
+  "soul_harvest": {
+    "enabled": true,
+    "cost": 30.0,
+    "cooldown": 14.0,
+    "damage": 5.0,
+    "radius": 6.0,
+    "leech": 50.0
+  },
+  "void_rift": {
+    "enabled": true,
+    "cost": 40.0,
+    "cooldown": 18.0,
+    "damage": 3.0,
+    "radius": 4.0,
+    "range": 24.0,
+    "duration": 5.0
+  },
+  "shadow_step": {
+    "enabled": true,
+    "cost": 18.0,
+    "cooldown": 8.0,
+    "range": 16.0,
+    "duration": 2.0
+  },
+  "eclipse": {
+    "enabled": true,
+    "cost": 60.0,
+    "cooldown": 40.0,
+    "duration": 8.0,
+    "bonus": 40.0,
+    "radius": 10.0
+  },
+  "frost_lance": {
+    "enabled": true,
+    "cost": 10.0,
+    "cooldown": 1.75,
+    "damage": 5.0,
+    "range": 18.0,
+    "pierce": 4.0,
+    "slow": 3.0
+  },
+  "tidebinder": {
+    "enabled": true,
+    "cost": 20.0,
+    "cooldown": 20.0,
+    "duration": 10.0
+  },
+  "glacial_prison": {
+    "enabled": true,
+    "cost": 40.0,
+    "cooldown": 20.0,
+    "damage": 6.0,
+    "radius": 6.0,
+    "duration": 3.0
+  },
+  "tidal_surge": {
+    "enabled": true,
+    "cost": 20.0,
+    "cooldown": 8.0,
+    "damage": 6.0,
+    "range": 10.0
+  },
+  "maelstrom": {
+    "enabled": true,
+    "cost": 60.0,
+    "cooldown": 35.0,
+    "damage": 4.0,
+    "radius": 7.0,
+    "range": 26.0,
+    "duration": 6.0
+  },
+  "stone_spear": {
+    "enabled": true,
+    "cost": 12.0,
+    "cooldown": 2.5,
+    "damage": 7.0,
+    "range": 20.0
+  },
+  "stone_skin": {
+    "enabled": true,
+    "cost": 25.0,
+    "cooldown": 22.0,
+    "duration": 8.0,
+    "amplifier": 1.0
+  },
+  "tremor": {
+    "enabled": true,
+    "cost": 30.0,
+    "cooldown": 12.0,
+    "damage": 8.0,
+    "radius": 5.0
+  },
+  "fissure": {
+    "enabled": true,
+    "cost": 30.0,
+    "cooldown": 12.0,
+    "damage": 7.0,
+    "range": 14.0
+  },
+  "mountains_wrath": {
+    "enabled": true,
+    "cost": 60.0,
+    "cooldown": 45.0,
+    "duration": 10.0,
+    "damage": 10.0,
+    "radius": 6.0
+  },
+  "mending_light": {
+    "enabled": true,
+    "cost": 18.0,
+    "cooldown": 6.0,
+    "heal": 6.0,
+    "radius": 6.0
+  },
+  "thorn_burst": {
+    "enabled": true,
+    "cost": 25.0,
+    "cooldown": 10.0,
+    "damage": 5.0,
+    "radius": 5.0,
+    "poison": 4.0
+  },
+  "sanctuary": {
+    "enabled": true,
+    "cost": 40.0,
+    "cooldown": 26.0,
+    "duration": 8.0,
+    "radius": 6.0,
+    "damage": 3.0
+  },
+  "radiant_nova": {
+    "enabled": true,
+    "cost": 30.0,
+    "cooldown": 12.0,
+    "damage": 7.0,
+    "radius": 6.0,
+    "duration": 6.0
+  },
+  "verdant_rebirth": {
+    "enabled": true,
+    "cost": 70.0,
+    "cooldown": 90.0,
+    "absorption": 8.0,
+    "duration": 10.0
+  }
+}
