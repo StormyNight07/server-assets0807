@@ -885,11 +885,6 @@
       "size": 1743
     },
     {
-      "path": "asyncparticles/asyncparticles-mixin.properties",
-      "sha256": "9290ed09c84b30c76664a41a27bb4169aed71cd1782bca1abacf82e9654812df",
-      "size": 2226
-    },
-    {
       "path": "asyncparticles/asyncparticles.json",
       "sha256": "8e5524f7025d8e33464722c775ef97a273b74ad249964d7fcdcae211f7b6f278",
       "size": 1217
