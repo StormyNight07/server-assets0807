@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-12T13:30:21",
+  "version": "2026-11-12T15:25:21",
   "removeExtraMods": true,
   "mods": [
     {
@@ -206,6 +206,11 @@
       "file": "Data_Anchor-fabric-1.21.1-2.0.0.17.jar",
       "sha256": "790adc3832582d7c12c75afad3d879aac5153f53d0928aeee6652aacdfbb43c6",
       "size": 126060
+    },
+    {
+      "file": "diorama-0.9.0+1.21-1.21.1.jar",
+      "sha256": "ddbba932f882ff60460b37ec02cc9941021fe79d52593ce8e7f760c008caa1cb",
+      "size": 1300031
     },
     {
       "file": "DisableCustomWorldsAdvice-6.0.jar",
@@ -881,7 +886,7 @@
     },
     {
       "path": "asyncparticles/asyncparticles-mixin.properties",
-      "sha256": "2bda8cd6c3ac34cea775151298ec4038e0bbcd37aa3f0ddfea35a6503e959ebd",
+      "sha256": "2791dc14df9bb843cdd43a15844ec93fdf0ae71557467c930cefd1b7d5d4a0d9",
       "size": 2226
     },
     {
@@ -1201,7 +1206,7 @@
     },
     {
       "path": "fabric/indigo-renderer.properties",
-      "sha256": "a6567d0e7edf0b320ebaf89914df2c1ea2538858330c97791500b010709fd655",
+      "sha256": "eb74ccb88e05af7ae8cfe023a70b9d0a92a056dcbd9510794ae88c07bd6c64ab",
       "size": 290
     },
     {
@@ -1301,7 +1306,7 @@
     },
     {
       "path": "iris.properties",
-      "sha256": "95c18cb82628126e8e0b9c46bb690f1ae553386301b4f8592ebc430437f32eab",
+      "sha256": "5c834d7ced058844fc7eef647054ca9d07922360a7fd26ba832f6176d5d0be01",
       "size": 316
     },
     {
@@ -1320,6 +1325,11 @@
       "size": 374
     },
     {
+      "path": "journeymap-server.json",
+      "sha256": "2b77ff82093eb3698b79b2b953806855d1880d414544a8158f41b028d8e293ca",
+      "size": 67
+    },
+    {
       "path": "lambdynlights.toml",
       "sha256": "1211ddc63edfd35b313a9d85323360c87911b0d6214b96ed047631d459bd9032",
       "size": 8991
@@ -1331,7 +1341,7 @@
     },
     {
       "path": "libraryferret_1.properties",
-      "sha256": "83377f1663ecb5bd6dcefa967b300da04303e32d4de89ac14b74817bd7434e98",
+      "sha256": "47ea91de11d4cc3cc08311e88b10c6d19d8d306f26d1b4e001598d5b7a5b968d",
       "size": 193
     },
     {
@@ -1861,8 +1871,8 @@
     },
     {
       "path": "RuOK.toml",
-      "sha256": "9714a42f63dc2543d99687d90bd90a28db35382c9a23577f17d666c026bac872",
-      "size": 1694
+      "sha256": "d7b0402969dbf42b908b8583892b8778a16f47f20c46f8a9e2c270dcd35f3fc0",
+      "size": 1693
     },
     {
       "path": "satisfying_buttons-client.toml",
@@ -2465,134 +2475,7 @@
       "size": 708
     }
   ],
-  "options": {
-    "toggleCrouch": "false",
-    "toggleSprint": "true",
-    "key_key.attack": "key.mouse.left",
-    "key_key.use": "key.mouse.right",
-    "key_key.forward": "key.keyboard.w",
-    "key_key.left": "key.keyboard.a",
-    "key_key.back": "key.keyboard.s",
-    "key_key.right": "key.keyboard.d",
-    "key_key.jump": "key.keyboard.space",
-    "key_key.sneak": "key.keyboard.left.shift",
-    "key_key.sprint": "key.keyboard.keypad.decimal",
-    "key_key.drop": "key.keyboard.tab",
-    "key_key.inventory": "key.keyboard.e",
-    "key_key.chat": "key.keyboard.t",
-    "key_key.playerlist": "key.keyboard.grave.accent",
-    "key_key.pickItem": "key.mouse.middle",
-    "key_key.command": "key.keyboard.slash",
-    "key_key.socialInteractions": "key.keyboard.p",
-    "key_key.screenshot": "key.keyboard.f2",
-    "key_key.togglePerspective": "key.keyboard.left.alt",
-    "key_key.smoothCamera": "key.keyboard.unknown",
-    "key_key.fullscreen": "key.keyboard.right.alt",
-    "key_key.spectatorOutlines": "key.keyboard.unknown",
-    "key_key.swapOffhand": "key.keyboard.f",
-    "key_key.saveToolbarActivator": "key.keyboard.unknown",
-    "key_key.loadToolbarActivator": "key.keyboard.unknown",
-    "key_key.advancements": "key.keyboard.l",
-    "key_key.hotbar.1": "key.keyboard.1",
-    "key_key.hotbar.2": "key.keyboard.2",
-    "key_key.hotbar.3": "key.keyboard.3",
-    "key_key.hotbar.4": "key.keyboard.4",
-    "key_key.hotbar.5": "key.keyboard.5",
-    "key_key.hotbar.6": "key.keyboard.6",
-    "key_key.hotbar.7": "key.keyboard.7",
-    "key_key.hotbar.8": "key.keyboard.8",
-    "key_key.hotbar.9": "key.keyboard.9",
-    "key_key.dynamic_fps.toggle_forced": "key.keyboard.unknown",
-    "key_key.dynamic_fps.toggle_disabled": "key.keyboard.unknown",
-    "key_legendarytooltips.key.scrollTooltips": "key.keyboard.left.shift",
-    "key_key.simplyswords.mainhand_ability": "key.keyboard.unknown",
-    "key_key.simplyswords.offhand_ability": "key.keyboard.unknown",
-    "key_key.yo_hooks.jump": "key.keyboard.space",
-    "key_key.yo_hooks.climb": "key.keyboard.u",
-    "key_key.yo_hooks.climb_down": "key.keyboard.j",
-    "key_key.yo_hooks.prevent_use": "key.keyboard.unknown",
-    "key_accessories.key.open_accessories_screen": "key.keyboard.h",
-    "key_keybinds.bettercombat.feint": "key.keyboard.unknown",
-    "key_keybinds.bettercombat.toggle_mine_with_weapons": "key.keyboard.unknown",
-    "key_key.bplb.show_player_name": "key.keyboard.tab",
-    "key_key.bplb.open_config": "key.keyboard.f8",
-    "key_key.chestsearchbar.toggleSearchBarKey": "key.keyboard.t",
-    "key_key.cinematic.sit": "key.keyboard.h",
-    "key_key.cinematic.look": "key.keyboard.left.alt",
-    "key_key.clientsort.edit": "key.keyboard.unknown",
-    "key_key.clientsort.cancelAuto": "key.keyboard.unknown",
-    "key_key.clientsort.op.sort": "key.mouse.middle",
-    "key_key.clientsort.op.stackFill": "key.keyboard.unknown",
-    "key_key.clientsort.op.matchTransfer": "key.keyboard.unknown",
-    "key_key.clientsort.op.transfer": "key.keyboard.unknown",
-    "key_key.effortlessbuilding.open_radial_menu": "key.keyboard.f4",
-    "key_key.effortlessbuilding.open_modifiers_screen": "key.keyboard.keypad.add",
-    "key_key.effortlessbuilding.undo.desc": "key.keyboard.unknown",
-    "key_key.effortlessbuilding.redo.desc": "key.mouse.left",
-    "key_key.entityculling.toggle": "key.keyboard.unknown",
-    "key_key.exposure.camera_controls": "key.keyboard.unknown",
-    "key_key.food.animation": "key.keyboard.unknown",
-    "key_key.immersive_aircraft.multi_control_left": "key.keyboard.a",
-    "key_key.immersive_aircraft.multi_control_right": "key.keyboard.d",
-    "key_key.immersive_aircraft.multi_control_forward": "key.keyboard.w",
-    "key_key.immersive_aircraft.multi_control_backward": "key.keyboard.s",
-    "key_key.immersive_aircraft.multi_control_up": "key.keyboard.space",
-    "key_key.immersive_aircraft.multi_control_down": "key.keyboard.left.shift",
-    "key_key.immersive_aircraft.multi_control_pull": "key.keyboard.s",
-    "key_key.immersive_aircraft.multi_control_push": "key.keyboard.w",
-    "key_key.immersive_aircraft.multi_use": "key.mouse.right",
-    "key_key.immersive_aircraft.dismount": "key.keyboard.r",
-    "key_key.immersive_aircraft.boost": "key.keyboard.f5",
-    "key_key.modmenu.open_menu": "key.keyboard.unknown",
-    "key_supplementaries.keybind.quiver": "key.keyboard.v",
-    "key_key.ok_zoomer.zoom": "key.keyboard.c",
-    "key_key.ok_zoomer.decrease_zoom": "key.keyboard.unknown",
-    "key_key.ok_zoomer.increase_zoom": "key.keyboard.unknown",
-    "key_key.ok_zoomer.reset_zoom": "key.keyboard.unknown",
-    "key_key.presencefootsteps.settings": "key.keyboard.f10",
-    "key_key.presencefootsteps.toggle": "key.keyboard.unknown",
-    "key_key.puffish_skills.open": "key.keyboard.k",
-    "key_key.pulse-trims.config": "key.keyboard.unknown",
-    "key_key.simplytooltips.cycle_tab": "key.keyboard.g",
-    "key_key.simplytooltips.capture_gif": "key.keyboard.h",
-    "key_keybindings.spell_engine.tooltip_details": "key.keyboard.unknown",
-    "key_keybindings.spell_engine.bypass_spell_hotbar": "key.keyboard.left.control",
-    "key_keybindings.spell_engine.spell_hotbar_1": "key.keyboard.unknown",
-    "key_keybindings.spell_engine.spell_hotbar_2": "key.keyboard.unknown",
-    "key_keybindings.spell_engine.spell_hotbar_3": "key.keyboard.unknown",
-    "key_keybindings.spell_engine.spell_hotbar_4": "key.keyboard.unknown",
-    "key_keybindings.spell_engine.spell_hotbar_5": "key.keyboard.unknown",
-    "key_keybindings.spell_engine.spell_hotbar_6": "key.keyboard.unknown",
-    "key_keybindings.spell_engine.spell_hotbar_7": "key.keyboard.unknown",
-    "key_keybindings.spell_engine.spell_hotbar_8": "key.keyboard.unknown",
-    "key_keybindings.spell_engine.spell_hotbar_9": "key.keyboard.unknown",
-    "key_key.starlit.toggle": "key.keyboard.unknown",
-    "key_key.starlit.settings": "key.keyboard.unknown",
-    "key_key.storagefinder.search": "key.keyboard.y",
-    "key_key.travelersbackpack.inventory": "key.keyboard.b",
-    "key_key.travelersbackpack.sort": "key.keyboard.unknown",
-    "key_key.travelersbackpack.ability": "key.keyboard.unknown",
-    "key_key.travelersbackpack.cycle_tool": "key.keyboard.unknown",
-    "key_key.travelersbackpack.toggle_upgrade_0": "key.keyboard.unknown",
-    "key_key.travelersbackpack.toggle_upgrade_1": "key.keyboard.unknown",
-    "key_key.travelersbackpack.toggle_upgrade_2": "key.keyboard.unknown",
-    "key_key.travelersbackpack.toggle_upgrade_3": "key.keyboard.unknown",
-    "key_key.push_to_talk": "key.keyboard.unknown",
-    "key_key.whisper": "key.keyboard.unknown",
-    "key_key.mute_microphone": "key.keyboard.unknown",
-    "key_key.disable_voice_chat": "key.keyboard.unknown",
-    "key_key.hide_icons": "key.keyboard.unknown",
-    "key_key.voice_chat": "key.keyboard.left.bracket",
-    "key_key.voice_chat_settings": "key.keyboard.right.bracket",
-    "key_key.voice_chat_group": "key.keyboard.unknown",
-    "key_key.voice_chat_toggle_recording": "key.keyboard.unknown",
-    "key_key.voice_chat_adjust_volumes": "key.keyboard.unknown",
-    "key_iris.keybind.reload": "key.keyboard.keypad.7",
-    "key_iris.keybind.toggleShaders": "key.keyboard.unknown",
-    "key_iris.keybind.shaderPackSelection": "key.keyboard.keypad.divide",
-    "key_iris.keybind.wireframe": "key.keyboard.unknown",
-    "key_lambdynlights.key.toggle_fps_dynamic_lighting": "key.keyboard.unknown"
-  },
+  "options": {},
   "resourcepacks": [
     {
       "file": "Unique Dark - Lite - 1.20.2-26.x.zip",
