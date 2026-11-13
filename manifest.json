@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-13T13:57:06",
+  "version": "2026-11-13T15:44:40",
   "removeExtraMods": true,
   "mods": [
     {
@@ -473,9 +473,9 @@
       "size": 975846
     },
     {
-      "file": "modpack-sync-1.3.1.jar",
-      "sha256": "bc0517458561b1d69b7e2e6abae603be12b31bb6445e9a7793fee9e265dc4c7a",
-      "size": 63652
+      "file": "modpack-sync-1.3.2.jar",
+      "sha256": "17b2c3c1feac589d7d9419924115112f3978d2eb26d329efd5ae2553be0eabee",
+      "size": 64112
     },
     {
       "file": "moonlight-1.21.1-3.5.2-fabric.jar",
@@ -866,8 +866,6 @@
     "key_key.yo_hooks.climb_down": "key.keyboard.j",
     "key_key.yo_hooks.prevent_use": "key.keyboard.unknown",
     "key_accessories.key.open_accessories_screen": "key.keyboard.h",
-    "key_net.clayborn.accurateblockplacement.togglevanillaplacement": "key.keyboard.unknown",
-    "key_net.clayborn.accurateblockplacement.togglefastbreaking": "key.keyboard.unknown",
     "key_keybinds.bettercombat.feint": "key.keyboard.unknown",
     "key_keybinds.bettercombat.toggle_mine_with_weapons": "key.keyboard.unknown",
     "key_key.bplb.show_player_name": "key.keyboard.tab",
@@ -956,7 +954,9 @@
     "key_iris.keybind.toggleShaders": "key.keyboard.unknown",
     "key_iris.keybind.shaderPackSelection": "key.keyboard.keypad.divide",
     "key_iris.keybind.wireframe": "key.keyboard.unknown",
-    "key_lambdynlights.key.toggle_fps_dynamic_lighting": "key.keyboard.unknown"
+    "key_lambdynlights.key.toggle_fps_dynamic_lighting": "key.keyboard.unknown",
+    "key_net.clayborn.accurateblockplacement.togglevanillaplacement": "key.keyboard.unknown",
+    "key_net.clayborn.accurateblockplacement.togglefastbreaking": "key.keyboard.unknown"
   },
   "packOrder": [
     {
