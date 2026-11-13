@@ -1,0 +1,22 @@
+{
+	enablePlacementAnimation: true,
+	durationTicks: 6,
+	horizontalMaxAngle: 15.0,
+	verticalMaxAngle: 15.0,
+	horizontalCycles: 1.5,
+	verticalCycles: 1.0,
+	easing: "EASE_IN_OUT",
+	randomizeDirection: true,
+	enableBreakingAnimation: true,
+	breakingLoopTicks: 6,
+	breakingStartDelayTicks: 3,
+	breakingKeepAliveTicks: 2,
+	breakingAnimateConnectedBlocks: true,
+	breakingHorizontalMaxAngle: 8.0,
+	breakingVerticalMaxAngle: 4.0,
+	breakingHorizontalCycles: 1.5,
+	breakingVerticalCycles: 1.0,
+	breakingEasing: "CONSTANT",
+	breakingRandomizeDirection: true,
+	breakingReturnTicks: 4
+}
