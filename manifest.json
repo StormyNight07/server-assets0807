@@ -960,12 +960,6 @@
   },
   "packOrder": [
     {
-      "id": "moonlight:merged_pack"
-    },
-    {
-      "id": "pulse-trims-runtime"
-    },
-    {
       "id": "black_icons"
     },
     {
