@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-13T12:47:34",
+  "version": "2026-11-13T13:39:50",
   "removeExtraMods": true,
   "mods": [
     {
@@ -36,11 +36,6 @@
       "file": "AmbientSounds_FABRIC_v6.3.11_mc1.21.1.jar",
       "sha256": "8ddd5faafa0a66edb2f52205eaaa1a21332719c5b98ce6851a756f6b6856fba8",
       "size": 84824008
-    },
-    {
-      "file": "anticheat-1.0.0.jar",
-      "sha256": "f6fe84896b631b3c36063e92403d44cea326c06940362e5da761fd50a6ad4d40",
-      "size": 14975
     },
     {
       "file": "anvianslib-fabric-1.21-1.4.2.jar",
@@ -478,9 +473,9 @@
       "size": 975846
     },
     {
-      "file": "modpack-sync-1.2.1.jar",
-      "sha256": "6ac16a0c7b0734c711a5e0212895f577ba9f1d6e2f9959d1a52f8b2eb8f09918",
-      "size": 50657
+      "file": "modpack-sync-1.3.0.jar",
+      "sha256": "692ecfd3db85861bc1c31e1072f84b5c1a2a9397e310cf48ea8e1ec40d50e378",
+      "size": 62246
     },
     {
       "file": "moonlight-1.21.1-3.5.2-fabric.jar",
@@ -823,6 +818,7 @@
       "size": 572124
     }
   ],
+  "configs": [],
   "options": {
     "toggleCrouch": "false",
     "toggleSprint": "true",
@@ -870,8 +866,6 @@
     "key_key.yo_hooks.climb_down": "key.keyboard.j",
     "key_key.yo_hooks.prevent_use": "key.keyboard.unknown",
     "key_accessories.key.open_accessories_screen": "key.keyboard.h",
-    "key_net.clayborn.accurateblockplacement.togglevanillaplacement": "key.keyboard.unknown",
-    "key_net.clayborn.accurateblockplacement.togglefastbreaking": "key.keyboard.unknown",
     "key_keybinds.bettercombat.feint": "key.keyboard.unknown",
     "key_keybinds.bettercombat.toggle_mine_with_weapons": "key.keyboard.unknown",
     "key_key.bplb.show_player_name": "key.keyboard.tab",
@@ -960,7 +954,9 @@
     "key_iris.keybind.toggleShaders": "key.keyboard.unknown",
     "key_iris.keybind.shaderPackSelection": "key.keyboard.keypad.divide",
     "key_iris.keybind.wireframe": "key.keyboard.unknown",
-    "key_lambdynlights.key.toggle_fps_dynamic_lighting": "key.keyboard.unknown"
+    "key_lambdynlights.key.toggle_fps_dynamic_lighting": "key.keyboard.unknown",
+    "key_net.clayborn.accurateblockplacement.togglevanillaplacement": "key.keyboard.unknown",
+    "key_net.clayborn.accurateblockplacement.togglefastbreaking": "key.keyboard.unknown"
   },
   "packOrder": [
     {
